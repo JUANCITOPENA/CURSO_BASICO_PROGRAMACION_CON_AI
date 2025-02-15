@@ -1,0 +1,123 @@
+=============================================================================================================================================
+-------------- CREAR UN PORTAFOLIO WEB CON INTELIGENCIA ARTIFICIAL ENTREGA INDIVIDUAL CON DESPLIEGUE EN GITHUB---------
+=============================================================================================================================================
+
+=============================================================================================================================================
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+=============================================================================================================================================
+https://chat.mistral.ai/
+https://chat.deepseek.com/
+https://chat.qwenlm.ai/
+https://chatgpt.com/
+https://gemini.google.com/
+https://claude.ai/
+https://v0.dev/chat
+https://llamacoder.together.ai/
+https://www.perplexity.ai/
+https://copilot.microsoft.com/
+=============================================================================================================================================
+
+Rol: Actua como Desarrollador Frontend y Crea una página web completa para CreaR un portafolio estructurado con secciones claras (Homepage, Sobre Mí, Proyectos, Experiencia, Contacto) ,rellena los datos con datos ficticios de la industria Tech,  crealo lo mas completo posible en todas sus secciones de una Pagina Web Semantica, no dejes incompleto nada. Utiliza tecnologías modernas (HTML5, CSS, BOOTSTRAP, JS, iconos con font-awesome) , usa iconos, emojis, y demas con la libreria font awesome, agrega "EFECTOS GRANDIENTES ANIMADOS", Foto del Desarrollador, Centrada, debajo la descripcion. agrega el texto nombre una animacion busca la mejor, agrega un BOTON MODO DARK EN EL MENU, EL MENU QUE SEA TIPO FIJO ARRIBA, FIXED, optimiza para SEO y accesibilidad, y con diseño, imagenes y 3 card de impacto CON LOS PROYECTOS CON IMAGENES ALUSIVIAS AL TEMA, LAS CARD QUE TENGAN UN BORDER Y UN EFECTO HOVER Y QUE TENGA LA CARD UNA ANIMACION SUAVE DE LATIDO DEL CORAZON BIEN LENTA. LAS IMAGENES QUE SEA DE RELLENO DEFAULD DE BOOSTRAP img-thumbnail, Y LA SECCION DE Experiencia Profesional EN 3 CARD IGUAL CON SUS DETALLES y formato para promoverlo activamente en redes profesionales como linkedin,crelo con formato responsive para los dispositivos mas comunes,  dame el codigo completo.con iconos de redes sociales las mas comunes con los iconos de font awesome (NO PUEDES OLVIDAR EL MODO DARK).Recuerda mantener la coherencia en los colores de textos, los iconos con font awesome y los emojis y los colores en los graficos en modo dark y modo claro.
+
+Al Final dame los Pasos para subirlo a Github Pages, publicarlo, en github que sea el modo arrastrar y soltar sin codigo de forma manual.
+
+Dame tambien al final una Narrativa de Estudio sobre lo que hemos utilizado, paso a paso definiendo las tecnoliogias, las herramientas y como puedo practicar estos ejemplos usando IA.
+
+imagen foto: 
+
+https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png
+
+Card: 
+
+https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg
+https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s
+
+=============================================================================================================================================
+-- PARTE DE DESARROLLO E IMPLEMENTACION---
+=============================================================================================================================================
+
+Una vez termine, crea un tutorial desde cero indicando qué es el desarrollo WEB, diseño WEB Y Maquetado Web, qué es la programación web y cuáles son las tecnologías más básicas (HTML, CSS, Bootstrap, Font Awesome y JS), y crea una breve explicación de cada una.Definiendo cada de estas tecnologias y su orden historico en el desarrollo. Hazlo pensando en un tema de investigacion educativa.
+
+En el caso del proyecto, indica paso a paso todo el código. Luego, indica los pasos para poder aplicarlo en Visual Studio Code, cómo crear los archivos independientes.html, .css, .js, Indica cómo podemos visualizarlo en el navegador, y cómo lo desplegamos en GitHub, en este caso describe paso a paso de forma manual arrastrar y soltar la metologia de github para crear el proyecto, subir los archivos arrastrando y soltando, y luego como publicarloe en githubp pages. Descríbeme los pasos uno por uno, desde la creación de la cuenta hasta cómo crear el proyecto y el repositorio, con detalles, y cómo subirlo de forma manual buscando los archivos o arrastrándolos; la parte de comandos, óbviola por ahora.
+
+Luego, explica cómo se despliega en GitHub Pages, paso a paso, y cómo se puede ver y compartir una vez termine.
+
+=============================================================================================================================================
+--EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO:
+=============================================================================================================================================
+Has una metrica analizando segun los perfinles de un desarrollador que tiempo le puede tomar a cada uno hacer este proyecto completo: Analiza todos los aspectos ? involucra un programador aprendices, junir, senior, experto full stack, con experiencia promdio de experiencia sea  qe trabaje en una empresa o lo haga como freelancer?
+
+===============================================================================================================================================
+MODO DE SUBIR EL PROYECTO- EN LA CARPERTA DEL PROYECTO EN LA PAGINA WEB USTED SUBIRA UNA CARPERTA COMPRIMIDA:
+===============================================================================================================================================
+
+MODO DE SUBIR EL PROYECTO:
+
+En la carpeta del proyecto en la página web, usted subirá una carpeta comprimida con el siguiente nombre:
+
+NOMBRE_Y_APELLIDO_MATRICULA_PROYECTO_1_PORTAFOLIO_WEB.zip
+
+Dentro de esta carpeta deben estar los archivos principales del proyecto:
+
+index.html
+style.css
+script.js
+
+PASOS PARA SUBIR EL PROYECTO A GITHUB:
+
+Crear un Repositorio en GitHub:
+Inicie sesión en su cuenta de GitHub.
+Cree un nuevo repositorio con el nombre que se le haya indicado previamente (por ejemplo, nombre_apellido_portafolio_web).
+
+Subir Archivos al Repositorio:
+
+Comprima su carpeta del proyecto con el nombre especificado:
+
+NOMBRE_Y_APELLIDO_MATRICULA_PROYECTO_1_PORTAFOLIO_WEB.zip .
+
+En la página principal del repositorio, haga clic en "Add file" > "Upload files".
+Arrastre y suelte los archivos (index.html, style.css, script.js) o cargue la carpeta comprimida.
+
+Configurar GitHub Pages:
+
+Vaya a la pestaña Settings en su repositorio.
+Desplácese hasta la sección Pages .
+Seleccione la rama main como fuente para GitHub Pages.
+
+Guarde los cambios y copie la URL generada (por ejemplo, https://nombreusuario.github.io/nombre_apellido_portafolio_web).
+
+Publicar y Desplegar el Proyecto:
+
+Una vez configurado GitHub Pages, su proyecto estará disponible en la URL proporcionada.
+Verifique que el sitio funcione correctamente accediendo a la URL desde un navegador.
+
+
+DOCUMENTACIÓN DEL PROCESO
+
+Crear un Manual Documentado:
+
+Redacte un documento en Word o PDF que incluya:
+El proceso detallado para subir el proyecto a GitHub.
+El enlace del repositorio de GitHub.
+La URL del proyecto desplegado en GitHub Pages.
+Este manual debe ser claro y seguir el mismo formato profesional utilizado aquí.
+
+Compartir el Proyecto:
+
+Comparta el enlace del repositorio y la URL del proyecto en el documento manual que se le haya indicado.
+
+NOTA IMPORTANTE
+
+Todo el proceso descrito debe quedar documentado en un archivo Word o PDF, el cual guardará con el nombre:
+
+NOMBRE_Y_APELLIDO_MATRICULA_DOCUMENTACION_PROYECTO_1.pdf
+
+Este archivo debe incluir:
+
+El paso a paso para subir el proyecto a GitHub.
+El enlace del repositorio.
+La URL del proyecto en GitHub Pages.
+Capturas de pantalla relevantes del proceso (opcional pero recomendado).
+
+
