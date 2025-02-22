@@ -1,0 +1,101 @@
+=============================================================================================================================================
+PROYECTO BASICO PERO FUNDAMENTAL, DE INTELIGENCIA ARTIFICIAL APLICADA EN EL CAMPO DEL DESARROLLO DE APP. O COMO COMENZAR A GANAR DINERO.
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+=============================================================================================================================================
+https://chat.mistral.ai/
+https://chat.deepseek.com/
+https://chat.qwenlm.ai/
+https://chatgpt.com/
+https://gemini.google.com/
+https://claude.ai/
+https://v0.dev/chat
+https://llamacoder.together.ai/
+https://www.perplexity.ai/
+https://copilot.microsoft.com/
+=============================================================================================================================================
+
+Rol: Actua como Desarrollador Frontend y Crea una página web completa para una Clínica Veterinaria con las siguientes especificaciones técnicas:  
+
+1. **Tecnologías Requeridas:**  
+   - Bootstrap 5.3.0 (usar CDN)  
+   - Font Awesome 6.0 (usar CDN)  
+   - CSS personalizado con variables  
+   - HTML semántico  
+   - JavaScript básico para validaciones  
+
+2. **Estructura Obligatoria:**  
+   - Menú fijo superior responsivo con: Inicio, Servicios, Equipo, Contacto  
+   - Sección Inicio:  
+     * Título principal con emojis  
+     * Párrafo introductorio  
+     * Imagen destacada (usar URL: https://images.unsplash.com/photo-1583337130417-3346a1be7dee) en banner 100% del ancho. 
+     * Botón CTA grande  
+
+   - Sección Servicios (3 cards):  
+     * Card 1: Consulta General (imagen: https://purina.com.do/sites/default/files/2022-10/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg)  
+     * Card 2: Cirugías (imagen: https://holavet.com.ar/wp-content/uploads/2022/04/close-up-on-veterinarian-taking-care-of-pet-1.webp)  
+     * Card 3: Peluquería (imagen: https://cdn.prod.website-files.com/63634f4a7b868a399577cf37/659c82407d0add5a9ced831a_peluqueria%20canina.jpg)  
+     * Cada card debe tener: ícono Font Awesome, título, descripción breve  
+
+   - Sección Equipo (3 veterinarios):  
+     * Perfil 1: Dra. Ana López (foto: https://randomuser.me/api/portraits/women/45.jpg)  
+     * Perfil 2: Dr. Carlos Méndez (foto: https://randomuser.me/api/portraits/men/75.jpg)  
+     * Perfil 3: Dra. Laura Gómez (foto: https://randomuser.me/api/portraits/women/68.jpg)  
+     * Cada perfil: foto circular, nombre, especialidad, descripción  
+
+   - Sección Contacto:  
+     * Tarjeta con número de teléfono grande (+xx-xxxx-xxxxxx-xxx)  
+     * Botón de WhatsApp con ícono  
+     * Formulario con validación (nombre, email, mensaje)  
+     * Ventana Modal Confirmacion Simulacro de Envio de Correo con mensaje con emojis.  
+
+   - Footer:  
+     * 5 iconos sociales (Facebook, Instagram, Twitter, LinkedIn, YouTube)  
+     * Información de dirección y horarios  
+
+3. **Diseño Específico:**  
+   - Paleta de colores: #2C3E50 (primario), #18BC9C (secundario), #F39C12 (acento)  
+   - Efectos hover en tarjetas y botones  
+   - Sombras en cards y formulario  
+   - Imágenes responsive con object-fit: cover  
+   - Tipografía: Arial con jerarquía clara  
+
+4. **Funcionalidades:**  
+   - Validación de email en formulario  
+   - Enlaces funcionales de teléfono/WhatsApp  
+   - Scroll suave entre secciones  
+   - Animación al hacer hover en tarjeta de contacto  
+
+**Instrucciones Estrictas:**  
+- Usar solo CDNs oficiales  
+- Incluir TODO el código en un solo archivo HTML  
+- No dejar placeholders ni comentarios de TODO  
+- Asegurar compatibilidad móvil  
+- Implementar CSS personalizado con:  
+  * Variables CSS  
+  * Selectores específicos  
+  * Media queries para responsividad 
+
+**Nota Genera**
+Genera el código completo listo para copiar/pegar sin explicaciones adicionales. Incluye todos los elementos solicitados usando exactamente las URLs de imágenes proporcionadas. El código final debe funcionar inmediatamente al guardarse como .html y abrirse en navegador. 
+
+Recuerda seguir buenas prácticas de desarrollo web en UI/UX, basado en el usuario, diseño responsivo, adaptativo, memoria del navegador, persistencia, service workers, SEO y SEM. Mantén un código limpio y legible, utiliza etiquetas semánticas apropiadas, optimiza la velocidad de carga de las páginas para posicionamiento SEO y SEM, y asegúrate de que el sitio sea accesible (A11y), seguro (HTTPS), compatible entre navegadores y con un manejo adecuado de errores. Implementa analítica web para monitorear el rendimiento y considera el uso de CDN para mejorar la velocidad de carga
+
+=============================================================================================================================================
+-- PARTE DE DESARROLLO E IMPLEMENTACION---
+=============================================================================================================================================
+
+Una vez termine, crea un tutorial desde cero indicando qué es el desarrollo WEB, diseño WEB Y Maquetado Web, qué es la programación web y cuáles son las tecnologías más básicas (HTML, CSS, Bootstrap, Font Awesome y JS), y crea una breve explicación de cada una.Definiendo cada de estas tecnologias y su orden historico en el desarrollo. Hazlo pensando en un tema de investigacion educativa.
+
+En el caso del proyecto, indica paso a paso todo el código. Luego, indica los pasos para poder aplicarlo en Visual Studio Code, cómo crear los archivos independientes.html, .css, .js, Indica cómo podemos visualizarlo en el navegador, y cómo lo desplegamos en GitHub, en este caso describe paso a paso de forma manual arrastrar y soltar la metologia de github para crear el proyecto, subir los archivos arrastrando y soltando, y luego como publicarloe en githubp pages. Descríbeme los pasos uno por uno, desde la creación de la cuenta hasta cómo crear el proyecto y el repositorio, con detalles, y cómo subirlo de forma manual buscando los archivos o arrastrándolos; la parte de comandos, óbviola por ahora.
+
+Luego, explica cómo se despliega en GitHub Pages, paso a paso, y cómo se puede ver y compartir una vez termine.
+
+=============================================================================================================================================
+--EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO:
+=============================================================================================================================================
+Has una metrica analizando segun los perfinles de un desarrollador que tiempo le puede tomar a cada uno hacer este proyecto completo: Analiza todos los aspectos ? involucra un programador aprendices, junir, senior, experto full stack, con experiencia promdio de experiencia sea  qe trabaje en una empresa o lo haga como freelancer?

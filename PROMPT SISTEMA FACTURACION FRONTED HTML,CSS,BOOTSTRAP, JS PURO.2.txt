@@ -1,0 +1,63 @@
+Rol: Asume el rol de un desarrollador frontend experto.
+
+Crea una página web con HTML, CSS, Bootstrap y JavaScript puro para un frontend que reciba una temática de formulario de factura de productos, con un CRUD y las interacciones y validaciones correspondientes. Los datos generados deberán ser enviados por un método POST en formato JSON. Aplica las técnicas de frontend UI/UX más estandarizadas y mantén un diseño responsive en todo momento. Realiza todas las acciones de forma completa y continua sin necesidad de que el usuario indique continuar.
+
+Especificaciones:
+
+Encabezado:
+
+Título grande y centrado: Sistema de Facturación - Probando Prompt utilizando una etiqueta <h1>.
+
+Formulario:
+
+Diseñado con Bootstrap e íconos necesarios.
+
+Campos del formulario:
+
+Campo "Cliente" y "Producto" que sea un list view o lista con una lista obligatoria de 20 Clientes y 10 productos de base tecnológica. Al seleccionar un producto, el precio debe aparecer automáticamente en el campo "Precio".
+
+Campo de búsqueda para el producto, si es necesario.
+
+Campo "Cantidad" para calcular el total de la compra. El total debe ser calculado automáticamente en función del precio y la cantidad.
+
+Botón "Calcular" para modificar la cantidad y recalcular el total.
+
+Párrafos Informativos:
+
+Dos párrafos con la cantidad total de productos, los ítems y el total general de la compra.
+
+Botones CRUD:
+
+Incluye botones para las operaciones CRUD (Crear, Leer, Actualizar, Borrar), con validaciones de datos en los campos y la posibilidad de iterar en los registros de la tabla.
+
+Crear: Agrega un nuevo registro a la tabla con los datos del formulario.
+
+Leer: Muestra los registros existentes en la tabla.
+
+Actualizar: Permite editar un registro seleccionado y actualizar los datos en la tabla.
+
+Borrar: Elimina un registro seleccionado de la tabla con una alerta de confirmación antes de borrar.
+
+Tabla de Datos:
+
+Los datos deben ser enviados a una tabla creada con Bootstrap responsiva que reciba los datos agregados desde el formulario, haciendo todas las validaciones correspondientes.
+
+Cada fila de la tabla debe incluir opciones para editar y borrar los registros.
+
+Botón para enviar los datos en formato JSON.
+
+Opción para descargar los datos en un archivo de texto (bloc de notas).
+
+Interacciones CRUD:
+
+Calcular: Realiza los cálculos antes de agregar los datos.
+
+Editar: Permite editar los datos en el formulario nuevamente después de haber agregado la compra y guardarla con los cambios.
+
+Eliminar: Elimina el registro de la tabla y muestra un mensaje de alerta antes de borrar y después de borrar.
+
+Formato Responsive:
+
+Asegúrate de que todos los elementos y componentes de la página sean responsivos y se adapten a diferentes tamaños de pantalla utilizando Bootstrap.
+
+Realiza todas estas tareas de manera completa y sin necesidad de intervención adicional del usuario, asegurándote de que todas las interacciones con los botones, las cajas y los cálculos se creen y funcionen correctamente.
