@@ -1,0 +1,33 @@
+
+Asume el rol de un Programador Web, y Desarrolla una aplicación web interactiva que solicite al usuario tres valores y determine si cada valor es mayor, menor, igual o no es un número. La aplicación debe cumplir con los siguientes requisitos de diseño y funcionalidad:
+
+Ventana Principal:
+
+Tamaño: 500x500 píxeles.
+Encabezado:
+Texto: "Comparador de Números".
+Color: Negro.
+Tamaño de fuente: 18px.
+Ubicación: Centrado en la parte superior.
+Etiquetas de Entrada:
+
+Texto: "Escriba el Valor #1", "Escriba el Valor #2", "Escriba el Valor #3".
+Color: Azul.
+Estilo: Negrita.
+Tamaño de fuente: 14px.
+Cajas de Texto:
+
+Tamaño de fuente: 14px.
+Color de texto: Negro.
+Fondo: Amarillo.
+Botón de Enviar:
+
+Tamaño: Grande.
+Color de fondo: Verde.
+Estilo de texto: Negrita.
+Tamaño de fuente: 16px.
+Resultado:
+
+Tamaño de fuente: 16px.
+Valor resaltado: Utilizar un color contrastante para resaltar el resultado.
+Nota: Utiliza HTML, CSS y JavaScript para implementar la lógica y el diseño. Asegúrate de que la interfaz sea intuitiva y atractiva, aplicando principios de psicología del color y estándares de UI/UX.

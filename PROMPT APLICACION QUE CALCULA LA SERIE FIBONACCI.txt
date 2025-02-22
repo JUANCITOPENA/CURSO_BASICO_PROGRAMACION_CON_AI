@@ -1,0 +1,37 @@
+Asume el rol de un Desarrollador Web, y Crea una aplicación web que calcule y muestre los primeros n números de la serie de Fibonacci. La aplicación debe incluir una interfaz de usuario atractiva y funcional, siguiendo estos requisitos:
+
+Diseño de la Interfaz:
+
+Encabezado:
+Texto: "Calculadora de Fibonacci".
+Color: Negro.
+Tamaño de fuente: 20px.
+Ubicación: Centrado en la parte superior.
+Etiqueta de Entrada:
+
+Texto: "Introduzca el número de elementos:".
+Color: Azul.
+Estilo: Negrita.
+Tamaño de fuente: 16px.
+Caja de Texto:
+
+Tamaño de fuente: 16px.
+Color de texto: Negro.
+Fondo: Blanco.
+Botón de Calcular:
+
+Tamaño: Mediano.
+Color de fondo: Verde.
+Estilo de texto: Negrita.
+Tamaño de fuente: 16px.
+Resultado:
+
+Tamaño de fuente: 18px.
+Valor resaltado: Utilizar un color contrastante para resaltar la serie de Fibonacci.
+Funcionalidad:
+
+Define una función fibonacci(n) en JavaScript que calcule los primeros n números de la serie de Fibonacci.
+Solicita al usuario que introduzca el número de elementos deseados utilizando un campo de entrada.
+Convierte el valor introducido a un número entero.
+Muestra la serie de Fibonacci calculada en la interfaz.
+Nota: Utiliza HTML, CSS y JavaScript para implementar la lógica y el diseño. Asegúrate de que la interfaz sea intuitiva y atractiva, aplicando principios de psicología del color y estándares de UI/UX.
