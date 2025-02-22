@@ -1,31 +1,58 @@
-Crea una imagen de alta calidad utilizando una cámara fotográfica profesional de última generación, como la Sony A7R III, emulando la precisión y el arte de un fotógrafo experimentado. La escena muestra a una pareja de esposos de tez morena, un hombre y una mujer, junto a su hija pequeña, caminando por un campo de flores multicolores. Un viento suave mueve las flores y los árboles, creando un efecto natural y dinámico. Los rayos dorados del sol atraviesan las ramas de los árboles, iluminando la escena con una luz cálida y suave. La pareja sonríe mientras caminan tomados de la mano, y su hija corre alegremente a su lado. El fondo muestra un cielo azul despejado con algunas nubes blancas esponjosas. Cada detalle, desde la expresión en los rostros hasta el movimiento de las flores, está capturado con una nitidez y un enfoque excepcionales, resaltando la belleza y la calidez de este momento familiar en la naturaleza.
+Prompt para Creación de Imagen:
 
+Título: "Momento Familiar en el Campo de Flores"
 
+Descripción:
 
-El video comienza con una toma aérea de un campo de flores multicolores, capturando la vasta extensión y la belleza natural del entorno. La cámara desciende lentamente para revelar a una pareja de esposos de tez morena, un hombre y una mujer, caminando de la mano por el campo. Su hija pequeña corre alegremente a su lado, con una sonrisa radiante en su rostro.
+Quiero que crees una imagen fotorrealista de alta calidad utilizando una cámara fotográfica profesional de última generación, como la Sony A7R III, emulando la precisión y el arte de un fotógrafo experimentado. La escena debe capturar un momento familiar cálido y lleno de vida en un entorno natural.
 
-Escena 1: Caminata por el Campo
+Escena Principal:
 
-Toma 1: Un plano medio de la pareja caminando, con la cámara moviéndose suavemente a su alrededor, capturando sus sonrisas y la conexión entre ellos.
-Toma 2: Un primer plano de la hija corriendo, con el viento moviendo suavemente su cabello y las flores alrededor.
-Escena 2: Interacción Familiar
+Pareja de Esposos y su Hija:
 
-Toma 3: La pareja se detiene para abrazar a su hija, con la cámara capturando un momento tierno y lleno de amor.
-Toma 4: Un plano general del campo, mostrando la familia en el centro, con el sol filtrándose a través de los árboles, creando un efecto de luz dorada.
-Escena 3: Detalles Naturales
+Una pareja de esposos de tez morena, un hombre y una mujer, caminando por un campo de flores multicolores.
+La pareja debe estar tomada de la mano, con expresiones de felicidad y amor en sus rostros.
+Su hija pequeña corre alegremente a su lado, con una sonrisa radiante y ojos brillantes.
+Campo de Flores Multicolores:
 
-Toma 5: Primeros planos de las flores moviéndose con el viento, capturando la delicadeza y el color vibrante de cada pétalo.
-Toma 6: Un plano detalle de las manos de la pareja entrelazadas, simbolizando su unión y amor.
-Escena 4: Cierre con Atardecer
+Un campo extenso lleno de flores de diversos colores: rosas, amarillas, azules, moradas, etc.
+Las flores deben estar en plena floración, con pétalos suaves y vibrantes.
+Un viento suave mueve las flores y los árboles, creando un efecto natural y dinámico.
+Iluminación y Ambiente:
 
-Toma 7: La familia se sienta en el campo, disfrutando de la puesta de sol, con el cielo pintado de tonos naranjas y rosados.
-Toma 8: Un plano final del cielo despejado con algunas nubes esponjosas, mientras el sol se oculta lentamente en el horizonte.
-Transiciones y Efectos:
+Rayos dorados del sol atravesando las ramas de los árboles, creando una luz cálida y suave que ilumina la escena.
+El fondo muestra un cielo azul despejado con algunas nubes blancas esponjosas.
+La luz debe resaltar los detalles y crear sombras suaves que añadan profundidad a la imagen.
+Técnicas Fotográficas y Detalles:
 
-Usa transiciones suaves entre las escenas para mantener la fluidez del video.
-Añade efectos de luz y color para resaltar la calidez y la belleza natural de cada toma.
-Música y Sonido:
+Iluminación:
 
-Una melodía suave y alegre de fondo que complemente la atmósfera feliz y relajada del video.
-Sonidos naturales, como el viento soplando y el canto de los pájaros, para enriquecer la experiencia auditiva.
+Usa una iluminación natural con una luz dorada que resalte la calidez del momento.
+La luz debe venir desde un ángulo que cree sombras suaves y realce las texturas de las flores y los rostros.
+Composición:
 
+Utiliza la regla de los tercios para colocar a la pareja y su hija en puntos de interés, con el campo de flores y el cielo en los otros tercios.
+Asegúrate de que haya profundidad en la imagen, con elementos en primer plano, medio plano y fondo.
+Detalles y Texturas:
+
+Aplica texturas realistas a todas las superficies: pétalos de las flores, hojas de los árboles, ropa de la familia y sus expresiones faciales.
+Incluye detalles finos como el movimiento de las flores con el viento, las arrugas en la ropa y las expresiones faciales.
+Efectos Naturales:
+
+Añade efectos de movimiento suave en las flores y los árboles para crear una sensación de viento.
+Usa un ligero desenfoque en el fondo para enfocar la atención en la familia en primer plano.
+Color y Contraste:
+
+Utiliza una paleta de colores vibrantes y naturales para las flores y el entorno.
+Ajusta el contraste para resaltar los detalles y crear un impacto visual suave pero poderoso.
+Tecnología de Cámara:
+
+Imagina que estás usando una cámara de alta resolución como la Sony A7R III con un lente de gran angular para capturar toda la escena.
+Aplica técnicas de post-procesamiento como HDR (High Dynamic Range) para capturar todos los detalles de luz y sombra.
+Inspiración:
+
+Fotografías de familias en entornos naturales capturadas por fotógrafos profesionales.
+Imágenes de campos de flores y paisajes naturales con una iluminación cálida y suave.
+Objetivo:
+
+Crear una imagen que parezca una fotografía real de un momento familiar en un campo de flores, utilizando todas las técnicas fotográficas y tecnologías disponibles hoy en día para lograr el máximo realismo y detalle.
