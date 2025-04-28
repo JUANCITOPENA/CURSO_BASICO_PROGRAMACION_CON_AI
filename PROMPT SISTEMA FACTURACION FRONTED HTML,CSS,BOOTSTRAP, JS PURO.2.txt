@@ -14,7 +14,50 @@ Diseñado con Bootstrap e íconos necesarios.
 
 Campos del formulario:
 
-Campo "Cliente" y "Producto" que sea un list view o lista con una lista obligatoria de 20 Clientes y 10 productos de base tecnológica. Al seleccionar un producto, el precio debe aparecer automáticamente en el campo "Precio".
+El Campo "Cliente" Deben ser esto: de 15 Clientes  con una lista obligatoria:
+
+Juan García
+María Rodríguez
+Carlos López
+Ana Martínez
+José Pérez
+Laura Gómez
+Miguel Sánchez
+Sofía Fernández
+Javier González
+Carmen Ruiz
+Antonio Jiménez
+Isabel Hernández
+David Moreno
+Patricia Díaz
+Manuel Álvarez
+
+
+El Campo "Producto" que sea un list view o lista con una lista obligatoria con 20 productos de base tecnológica.
+
+Laptops (Portátiles)
+Smartphones (Teléfonos inteligentes)
+Tablets
+Auriculares inalámbricos (Bluetooth/True Wireless)
+Altavoces Bluetooth
+Smartwatches (Relojes inteligentes)
+Monitores para PC
+Teclados (alámbricos e inalámbricos)
+Ratones (Mice - alámbricos e inalámbricos)
+Webcams (Cámaras web)
+Impresoras multifunción
+Consolas de videojuegos (Ej: PlayStation, Xbox, Nintendo Switch)
+Televisores inteligentes (Smart TVs)
+Routers Wi-Fi
+Repetidores Wi-Fi / Extensores de rango
+Discos duros externos y SSD externos
+Memorias USB (Pendrives)
+Tarjetas de memoria (SD, microSD)
+Cargadores portátiles (Power banks)
+Altavoces inteligentes (Ej: Amazon Echo, Google Nest)
+
+
+Al seleccionar un producto, el precio debe aparecer automáticamente en el campo "Precio".
 
 Campo de búsqueda para el producto, si es necesario.
 
