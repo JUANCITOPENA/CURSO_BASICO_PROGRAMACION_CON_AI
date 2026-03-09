@@ -1,0 +1,180 @@
+# 🤖 Guía Maestra: Mini Gemini AI - Sistema Inteligente Multi-Modelo
+
+¡Bienvenido al futuro! En esta guía aprenderás a construir una aplicación web que utiliza los modelos de Inteligencia Artificial más avanzados de Google (Gemini). Este proyecto está diseñado para ser **robusto, seguro y profesional**.
+
+---
+
+## 🌟 1. Propuesta de Arquitectura y Modelo
+
+Este proyecto no es una simple conexión a una API. Es un **Sistema de Inteligencia con Respaldo (Fallback)**.
+
+### ¿Por qué esta propuesta es superior?
+*   **Inteligencia Adaptativa**: El sistema intenta usar los modelos más potentes primero (`gemini-3.1-pro-preview`). Si ese modelo está ocupado o no disponible, salta automáticamente a los siguientes (`gemini-2.5-pro`, `gemini-2.5-flash`, etc.).
+*   **Seguridad Nivel Profesional**: Tu clave secreta (API KEY) nunca llega al navegador del usuario. Se procesa en el "Backend" (lado del servidor), lo que evita que alguien te robe la clave.
+*   **Velocidad Extrema**: Al usar los modelos "Flash", las respuestas son casi instantáneas.
+
+---
+
+## 🛠️ 2. Preparando tus Herramientas (Instalación)
+
+Antes de empezar, necesitas instalar los "superpoderes" en tu computadora:
+
+1.  **Node.js (El Motor)**: Es lo que permite ejecutar JavaScript fuera del navegador.
+    *   **Descarga aquí**: [https://nodejs.org/](https://nodejs.org/) (Elige la versión **LTS**).
+    *   *Instalación*: Dale a "Siguiente" en todo hasta terminar.
+2.  **Visual Studio Code (El Taller)**: El mejor editor de código del mundo.
+    *   **Descarga aquí**: [https://code.visualstudio.com/](https://code.visualstudio.com/).
+    *   *Instalación*: Abre el archivo y sigue las instrucciones.
+3.  **Vercel CLI (El Cohete)**: Es la herramienta que subirá tu proyecto a internet.
+    *   *Instalación*: Abre una terminal (PowerShell o CMD) y escribe:
+        ```bash
+        npm install -g vercel
+        ```
+
+---
+
+## 📂 3. Creando el Proyecto (Paso a Paso)
+
+Si estás empezando desde cero, sigue estos pasos para crear tus archivos:
+
+1.  **Crea la Carpeta**: Haz clic derecho en tu escritorio > Nuevo > Carpeta. Ponle de nombre `GEMINI_API_KEY_EJEMPLO`.
+2.  **Abre la Carpeta en VSC**: Abre Visual Studio Code, ve a `Archivo > Abrir Carpeta` y selecciona la que creaste.
+3.  **Crea los Archivos**: En la columna izquierda de VSC, verás un icono de una hoja con un "+". Dale clic para crear cada archivo:
+    *   `index.html` (Raíz)
+    *   `styles.css` (Raíz)
+    *   `app.js` (Raíz)
+    *   `.env` (Raíz)
+    *   **Crea una Carpeta** llamada `api`, y dentro crea el archivo `gemini.js`.
+
+---
+
+## 📜 4. Los Códigos Explicados
+
+### 🔑 A. El Cofre Secreto (`.env`)
+Aquí guardamos tu clave. **Nunca compartas este archivo**.
+```env
+GEMINI_API_KEY=AIzaSy...Tu_Clave_Real_Aqui
+```
+
+### 🌐 B. La Ventana al Mundo (`index.html`)
+Es la estructura visual. Usamos un `textarea` para que el usuario escriba mucho texto.
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Gemini AI</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazamos el diseño -->
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Mini Gemini AI</h1>
+        <p>Tu asistente inteligente de nueva generación</p>
+        
+        <!-- Caja para escribir -->
+        <textarea id="promptInput" placeholder="Hazme cualquier pregunta..."></textarea>
+        
+        <div class="buttons">
+            <button id="askBtn">🚀 Preguntar</button>
+            <button id="clearBtn">🧹 Limpiar</button>
+        </div>
+
+        <!-- Caja donde la IA escribe -->
+        <div class="response-box">
+            <p id="responseText">La IA está lista para responder...</p>
+        </div>
+    </div>
+    <script src="app.js"></script> <!-- Enlazamos el cerebro del cliente -->
+</body>
+</html>
+```
+
+### 🧠 C. El Cerebro del Servidor (`api/gemini.js`)
+Este es el archivo más importante. Recorre tu lista de modelos.
+```javascript
+export default async function handler(req, res) {
+    // 1. Verificamos que sea una petición válida
+    if (req.method !== "POST") return res.status(405).send("Usa el método POST");
+
+    const { message } = req.body; // Recibimos tu pregunta
+    const API_KEY = process.env.GEMINI_API_KEY; // Sacamos la llave del archivo .env
+
+    // 2. Tu lista estratégica de modelos
+    const MODELS = [
+        "gemini-2.5-flash-lite",
+        "gemini-3-flash-preview",
+        "gemini-2.5-flash",
+        "gemini-2.5-pro",
+        "gemini-3.1-pro-preview"
+    ];
+
+    // 3. Intento en bucle (Si uno falla, el otro ayuda)
+    for (const model of MODELS) {
+        try {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${API_KEY}`;
+            const response = await fetch(url, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ contents: [{ parts: [{ text: message }] }] })
+            });
+
+            if (!response.ok) continue; // Si este modelo falla, sigue con el siguiente
+
+            const data = await response.json();
+            const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+
+            if (text) return res.status(200).json({ reply: text }); // ¡Éxito!
+        } catch (err) {
+            continue; // Si hay error de red, sigue probando
+        }
+    }
+
+    return res.status(500).json({ error: "No pude obtener respuesta de ningún modelo." });
+}
+```
+
+---
+
+## 🚀 5. Probando en tu Computadora
+
+1. Abre la terminal en Visual Studio Code (`Terminal > Nueva Terminal`).
+2. Escribe:
+   ```bash
+   vercel dev
+   ```
+3. **Responde así a Vercel**:
+   *   `Set up and deploy?` **y**
+   *   `Which scope?` **Enter** (tu usuario)
+   *   `Link to existing project?` **n**
+   *   `Project name?` **mi-proyecto-gemini**
+   *   `Directory?` **Enter**
+   *   `Modify settings?` **n**
+4. Abre `http://localhost:3000` en Chrome o Edge.
+
+---
+
+## ☁️ 6. Despliegue al Mundo (GitHub y Vercel)
+
+### Paso 1: GitHub (Subir el código)
+1. Crea un repositorio vacío en GitHub.
+2. En tu terminal escribe estos comandos (uno por uno):
+   ```bash
+   git init
+   git add .
+   git commit -m "Versión Final Profesional"
+   git branch -M main
+   git remote add origin TU_URL_DE_GITHUB
+   git push -u origin main
+   ```
+
+### Paso 2: Vercel (Ponerlo Online)
+1. Entra a [vercel.com](https://vercel.com/) e importa tu repositorio.
+2. **CLAVE CRÍTICA**: Busca la sección **"Environment Variables"** antes de darle a Deploy.
+   *   **Name**: `GEMINI_API_KEY`
+   *   **Value**: (Pega aquí tu clave de Google)
+3. Dale clic a **"Deploy"**.
+
+---
+
+## 👨‍💻 Créditos
+Desarrollado con ❤️ por el **Ing. Juancito Peña**. Este proyecto demuestra el poder de la IA y el despliegue moderno en la nube.
