@@ -1,0 +1,495 @@
+==============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🟣 PORTAFOLIO PROFESIONAL CIBERPUNK OSCURO – ONE PAGE RESPONSIVE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Mandato
+Crea una página de portafolio profesional en un solo archivo (HTML5, CSS3, JS y Bootstrap) con estética ciberpunk oscura, totalmente responsive y en modo nocturno.
+
+# Prompt
+Eres un experto en Frontend con dominio en diseño UI/UX minimalista y moderno. En tu escritorio debes crear una carpeta que contenga una página web de portafolio profesional con estética ciberpunk oscura y clásica de Hacking y Develop, totalmente responsiva y en modo nocturno. La estructura visual debe desarrollarse en un solo archivo principal `index.html` con HTML5, CSS3, JavaScript y Bootstrap, garantizando una experiencia visual intensa, futurista y funcional, con alto contraste y detalles luminosos que evoquen un entorno tecnológico urbano.
+
+La página debe incluir un Navbar estilizado, una sección Hero con foto y biografía, un Stack Tecnológico en tarjetas brillantes, una sección de Proyectos con filtros dinámicos y un Footer con íconos sociales y un botón “Volver Arriba”. Para reforzar la atmósfera ciberpunk, utiliza Font Awesome, emojis e íconos que aporten un aire futurista y mantengan la coherencia con el diseño oscuro y vibrante.
+
+Además, prepara el proyecto para ser publicado correctamente en GitHub y Vercel:
+
+- Estructura mínima del proyecto:
+  - Carpeta del proyecto (por ejemplo: `portafolio-ciberpunk/`).
+  - Archivo principal: `index.html` (contiene HTML, CSS interno o link a `style.css`, y JS interno o link a `main.js`).
+  - Opcional: `style.css`, `main.js`, carpeta `assets/` para imágenes e íconos.
+- No requiere API Keys ni variables de entorno, por lo que:
+  - No es obligatorio usar `.env`.
+  - El proyecto puede subirse directamente a GitHub y publicarse en GitHub Pages y Vercel como sitio estático.
+- Publicación:
+  - GitHub:
+    - Crear repositorio público.
+    - Subir todos los archivos (`index.html`, `style.css`, `main.js`, `assets/`).
+  - GitHub Pages:
+    - Activar Pages desde la rama principal (`main` o `master`), carpeta raíz `/`.
+  - Vercel:
+    - Importar el repositorio desde GitHub.
+    - Seleccionar framework “Other” o “Static”.
+    - Deploy automático sin configuración adicional.
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción del proyecto:
+  - Objetivo del portafolio.
+  - Justificación de la estética ciberpunk y decisiones de UI/UX.
+- Estructura técnica:
+  - Explicación de cómo integraste HTML, CSS, JS y Bootstrap en un solo archivo principal (y archivos auxiliares si los usaste).
+- Explicación de la IA usada:
+  - Cómo utilizaste este prompt y/o herramientas de IA para definir estructura, textos, estilos y componentes.
+- Proceso para subirlo a GitHub:
+  - Creación del repositorio público.
+  - Subida de archivos (commit y push).
+  - Creación y contenido básico del README.
+- Publicación en GitHub Pages:
+  - Activación de GitHub Pages (branch y carpeta raíz).
+  - Verificación de que la web se ve correctamente desde la URL pública.
+- Publicación en Vercel:
+  - Conexión del repositorio de GitHub con Vercel.
+  - Configuración básica del proyecto.
+  - Verificación de la URL pública de Vercel.
+- Nota sobre variables .env:
+  - Indicar que este proyecto no requiere API Keys, pero que en otros proyectos sí se usarán variables de entorno (.env) para proteger credenciales.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub:  
+  `https://github.com/tu-usuario/tu-repo-portafolio`
+- URL pública de GitHub Pages:  
+  `https://tu-usuario.github.io/tu-repo-portafolio`
+- URL pública de Vercel:  
+  `https://tu-proyecto-portafolio.vercel.app`
+
+
+==============================================================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🟦 JUEGO TETRIS CIBERPUNK RESPONSIVE – ONE FILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Mandato
+Crea un juego tipo Tetris en un solo archivo usando HTML, CSS, Bootstrap 5 por CDN y JavaScript puro.
+
+# Prompt
+Crea un juego web tipo Tetris en un solo archivo usando HTML, CSS, CDN Bootstrap 5 y JavaScript puro. Debe mostrar piezas de colores estilo Tetris (cuadrados, líneas largas, rectángulos, “L”, “T”, “Z”) cayendo desde la parte superior y apilándose al llegar al fondo. El diseño debe ser centrado y responsive, con temática oscura ciberpunk y alto contraste (texto blanco brillante sobre fondo oscuro en paneles y HUD). Implementa controles por teclado (flechas para mover, Z/X para rotar, barra espaciadora para caída rápida) y soporte táctil con botones on‑screen equivalentes; el mouse puede arrastrar lateralmente y clic para rotar.
+
+Incluye sistema de puntaje que aumente al completar líneas, temporizador visible que limite la partida, y opciones de dificultad ajustables (velocidad de caída, tipos de figuras y paleta de colores). La interfaz debe usar Bootstrap para layout, Font Awesome/emoji para íconos del HUD, y componentes mínimos; todo sin librerías externas adicionales, solo HTML, CSS, Bootstrap 5 por CDN y JS puro con fetch deshabilitado.
+
+Estructura el proyecto para que pueda publicarse fácilmente en GitHub Pages y Vercel como sitio estático:
+
+- Estructura mínima:
+  - Carpeta del proyecto (por ejemplo: `tetris-ciberpunk/`).
+  - Archivo principal: `index.html` con todo el juego (HTML + CSS + JS embebido o referenciado).
+  - Carpeta `assets/` si usas imágenes o sonidos.
+- No requiere API Keys ni variables de entorno:
+  - No es obligatorio usar `.env`.
+  - No se necesitan dependencias vía `npm`, salvo que quieras organizar el proyecto con un bundler (opcional).
+- Publicación:
+  - GitHub:
+    - Crear repositorio público y subir todos los archivos.
+  - GitHub Pages:
+    - Activar Pages desde la rama principal, carpeta raíz `/`.
+  - Vercel:
+    - Importar el repositorio y desplegar como proyecto estático.
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción del juego:
+  - Mecánica básica del Tetris.
+  - Estilo visual ciberpunk y comportamiento en desktop/móvil.
+- Detalles técnicos:
+  - Lógica de piezas, colisiones, líneas completas, puntaje y temporizador.
+  - Implementación de controles de teclado, táctiles y con mouse.
+- Explicación de la IA usada:
+  - Cómo usaste este prompt y/o IA para estructurar el juego, HUD, nombres de funciones, etc.
+- Proceso para subirlo a GitHub:
+  - Creación del repositorio público.
+  - Subida del archivo único y documentación en README.
+- Publicación en GitHub Pages:
+  - Activación de GitHub Pages.
+  - Verificación de que el juego funciona desde la URL pública.
+- Publicación en Vercel:
+  - Conexión del repositorio con Vercel.
+  - Verificación del juego desde la URL pública.
+- Nota sobre variables .env:
+  - Indicar que este proyecto no requiere API Key, pero que otros sí usarán `.env`.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub:  
+  `https://github.com/tu-usuario/tu-repo-tetris`
+- URL pública de GitHub Pages:  
+  `https://tu-usuario.github.io/tu-repo-tetris`
+- URL pública de Vercel:  
+  `https://tu-proyecto-tetris.vercel.app`
+
+
+
+
+
+==============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🔵 APP DE CLIMA NEÓN CON OPENWEATHERMAP (VITE + VERCEL) - VERSIÓN WINDOWS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Mandato
+Crea una página web responsive que consuma la API de OpenWeatherMap usando fetch y muestre el clima actual de cualquier ciudad, estructurada con Vite, protegiendo la API Key con variables de entorno y optimizada para desplegar en Vercel.
+
+# Prompt
+Actúa como un Senior Frontend Developer. Necesito crear una aplicación web del clima con un diseño moderno centrado vertical y horizontalmente, estética neón azul oscuro y alto contraste (texto blanco brillante sobre fondo negro en inputs, icono de buscar que funcione también con la tecla Enter, y tarjetas descriptivas). Cada tarjeta debe incluir ciudad, país, temperatura, descripción, ícono grande representativo del clima y un botón para cerrar. Utiliza HTML, CSS, Bootstrap 5, Font Awesome, emojis y JavaScript puro con `fetch`.
+
+Debes proporcionarme el código exacto de cada archivo y explicarme el proceso paso a paso usando los siguientes comandos exclusivos para la terminal de Windows (CMD) para que yo solo tenga que copiar, pegar y ejecutar:
+
+- Paso 1: Creación del proyecto e instalación de Vite:
+  - Dame los comandos exactos de CMD para crear la carpeta, entrar en ella, inicializar npm e instalar Vite:
+    ```cmd
+    mkdir clima-openweather
+    cd clima-openweather
+    npm init -y
+    npm install vite --save-dev
+    ```
+- Paso 2: Creación de archivos vacíos (Para Windows CMD):
+  - Dame el comando exacto de Windows para crear todos los archivos necesarios de una vez:
+    ```cmd
+    type nul > index.html && type nul > style.css && type nul > main.js && type nul > .env && type nul > .gitignore
+    ```
+- Paso 3: Código de cada archivo:
+  - `package.json`: Muestra cómo deben quedar los scripts (`"dev": "vite"`, `"build": "vite build"`).
+  - `.env`: Muestra que aquí debo poner `VITE_OPENWEATHER_API_KEY=mi_api_key_aqui` (Aclara que NO se sube a GitHub).
+  - `.gitignore`: Debe contener `node_modules/`, `dist/` y `.env`.
+  - `index.html`: Estructura base referenciando `style.css` y `<script type="module" src="./main.js"></script>`.
+  - `style.css`: Estilos neón personalizados.
+  - `main.js`: Lógica del fetch consumiendo la variable con `import.meta.env.VITE_OPENWEATHER_API_KEY`.
+- Paso 4: Ejecución local del proyecto:
+  - Explica que debo ejecutar `npm run dev` en la terminal.
+  - Indica que el proyecto se visualizará haciendo Ctrl+Clic en la URL de localhost (ej. `http://localhost:5173`) y explica por qué no se puede abrir el `index.html` con doble clic (por el uso de módulos y Vite).
+- Paso 5: Publicación en GitHub (Subir código fuente limpio):
+  - Dame la secuencia exacta de comandos git para subir el código (excluyendo el .env gracias al .gitignore):
+    ```cmd
+    git init
+    git add .
+    git commit -m "feat: app de clima neon inicial"
+    git branch -M main
+    git remote add origin https://github.com/JUANCITOPENA/APP_DE_CLIMA_NE-N_CON_OPENWEATHERMAP
+    git push -u origin main
+    ```
+- Paso 6: Despliegue directo en Vercel (Sin usar GitHub Pages):
+  - Explica paso a paso cómo entrar a Vercel, importar el repositorio de GitHub y el **paso crucial**: ir a la sección "Environment Variables", poner `VITE_OPENWEATHER_API_KEY` con la API real, y darle a "Deploy".
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción de la app:
+  - Objetivo (consultar clima por ciudad).
+  - Estética neón azul oscuro y decisiones de UI/UX.
+- Uso de la API de OpenWeatherMap:
+  - URL base, parámetros principales (ciudad, unidades, idioma, API key).
+  - Explicación de cómo se usa `API_KEY` desde `import.meta.env.VITE_OPENWEATHER_API_KEY`.
+- Manejo de variables de entorno y Terminal (Windows):
+  - Explicación de los comandos de CMD usados para crear el proyecto y archivos (`mkdir`, `type nul >`, `npm install`).
+  - Cómo creaste el archivo `.env` y el `.gitignore` para proteger tus credenciales.
+- Ejecución del entorno de desarrollo (Localhost):
+  - Explicación de por qué se usa un servidor local con Vite en lugar de abrir el `index.html` directamente.
+  - Instrucción de cómo se usó `npm run dev` para arrancar la app en Windows.
+- Explicación de la IA usada:
+  - Cómo usaste este prompt para estructurar los comandos de consola en Windows, el fetch y el diseño.
+- Proceso para subirlo a GitHub:
+  - Evidencia de los comandos de `git` utilizados en la terminal.
+  - Demostración de que la carpeta `node_modules` y el archivo `.env` fueron omitidos exitosamente en el repositorio remoto.
+- Publicación en Vercel:
+  - Explicación de por qué se eligió Vercel (mayor facilidad para proyectos con Vite y variables de entorno).
+  - Configuración detallada de las "Environment Variables" en el panel de Vercel antes del Deploy.
+  - Pruebas de la app funcionando desde la URL pública generada.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub (donde NO debe estar visible el .env ni node_modules):  
+  `https://github.com/tu-usuario/tu-repo-clima`
+- URL pública de Vercel (donde la app funciona consumiendo la API de forma segura):  
+  `https://tu-proyecto-clima.vercel.app`
+
+
+
+
+
+==============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🟡 PORTAL DE NOTICIAS CON API (PUB_) Y EXPORTACIÓN TOP 10 – ONE FILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Mandato
+Crea una página web en un solo archivo que consuma una API de noticias (pub_) usando fetch, muestre tarjetas Bootstrap y permita descargar un .txt con el Top 10 de noticias de Tecnología y Ciencia.
+
+# Prompt
+Crea una página web en un solo archivo que consulte la API (pub_ – aquí pon tu api key:) usando fetch y muestre las noticias en tarjetas de Bootstrap con diseño responsive, fondo oscuro, borde amarillo y animación hover. CON LA IMAGEN DE PORTADA ORIGINAL, SI NO TIENE QUE SEA UNA IMAGEN DEFAULT NEWS. Usa HTML5, CSS3, JS PURO. Las tarjetas deben incluir título, fuente, fecha y enlace directo, utilizando además Font Awesome, emojis e íconos para enriquecer la interfaz.
+
+Incluye una función para descargar en mi PC un blog de notas (.txt) que filtre y contenga únicamente el Top 10 de noticias de Tecnología y Ciencia. El contenido del archivo debe estar profesionalmente editado y redactado, estructurando cada noticia en un extracto fundamental limitado estrictamente a dos párrafos: uno explicando el contexto y otro detallando las características más relevantes. Pero bien resumido para saber si debo leerla o no.
+
+Prepara el proyecto para usar variables de entorno y publicarlo de forma segura en GitHub Pages y Vercel:
+
+- Estructura del proyecto:
+  - Carpeta del proyecto (por ejemplo: `noticias-tech/`).
+  - `index.html` como archivo principal (puede referenciar `main.js` y `style.css`).
+  - `main.js` para la lógica de fetch, filtrado y generación del `.txt`.
+  - `style.css` para estilos personalizados.
+- Uso de Vite como bundler:
+  - Ejecutar:
+    - `npm init -y`
+    - `npm install vite`
+  - En `package.json`, agregar scripts:
+    - `"dev": "vite"`
+    - `"build": "vite build"`
+    - `"preview": "vite preview"`
+- Archivo `.env`:
+  - Crear `.env` en la raíz con:
+    - `VITE_NEWS_API_KEY=aquí pon tu api key:`
+- Uso de la variable en el código:
+  - En `main.js`:
+    ```js
+    const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
+    ```
+  - La URL de la API debe usar `API_KEY`.
+- Archivo `.gitignore`:
+  - Incluir:
+    - `node_modules/`
+    - `dist/`
+    - `.env`
+- Publicación en GitHub:
+  - Subir el proyecto sin `.env`.
+- Build:
+  - Ejecutar `npm run build` para generar `dist/`.
+- Publicación en GitHub Pages:
+  - Desplegar el contenido de `dist/` (rama `gh-pages` o configuración equivalente).
+- Publicación en Vercel:
+  - Importar el repositorio.
+  - Configurar en Vercel la variable `VITE_NEWS_API_KEY` en Environment Variables.
+  - Deploy automático.
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción de la app:
+  - Objetivo (listar noticias y generar Top 10 en .txt).
+  - Diseño (fondo oscuro, borde amarillo, animación hover).
+- Uso de la API (pub_):
+  - URL base y parámetros de filtrado (categorías Tecnología y Ciencia, idioma, país, etc.).
+  - Uso de `API_KEY` desde `import.meta.env.VITE_NEWS_API_KEY`.
+- Lógica del Top 10 y archivo .txt:
+  - Cómo filtras solo Tecnología y Ciencia.
+  - Cómo generas el contenido de dos párrafos por noticia.
+  - Cómo disparas la descarga del archivo `.txt`.
+- Manejo de variables de entorno:
+  - Creación de `.env`.
+  - Configuración de `.gitignore`.
+  - Configuración de Environment Variables en Vercel.
+- Explicación de la IA usada:
+  - Cómo usaste este prompt y/o IA para definir estructura, textos de resumen y formato del `.txt`.
+- Proceso para subirlo a GitHub:
+  - Creación del repositorio público.
+  - Subida del proyecto sin `.env`.
+- Publicación en GitHub Pages:
+  - Proceso de build y despliegue de `dist/`.
+- Publicación en Vercel:
+  - Conexión del repositorio con Vercel.
+  - Configuración de Environment Variables.
+  - Pruebas desde la URL pública.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub:  
+  `https://github.com/tu-usuario/tu-repo-noticias`
+- URL pública de GitHub Pages:  
+  `https://tu-usuario.github.io/tu-repo-noticias`
+- URL pública de Vercel:  
+  `https://tu-proyecto-noticias.vercel.app`
+
+
+==============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🟢 APP FINANCIERA CYBERPUNK CON EXCHANGERATE-API Y APEXCHARTS – ONE FILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Mandato
+Crea una aplicación web financiera interactiva que consuma ExchangeRate-API, muestre 12 monedas contra DOP y use ApexCharts para tendencias.
+
+# Prompt
+Crea una aplicación web financiera interactiva utilizando HTML5, CSS3, JS puro y Bootstrap 5, conectada a la API de ExchangeRate-API (Usa esta de ejemplo = Key: aquí pon tu api key:). La app debe mostrar el cambio de las 12 monedas de mayor relevancia global contra el Peso Dominicano (DOP), presentando cada una en tarjetas estilo Cyberpunk con bordes neón (colores azul, púrpura y verde), fondo negro absoluto con patrón de rejilla y tipografía futurista (Orbitron). Incluye un Calculador Maestro central que permita ingresar un monto "X" y lo calcule automáticamente en todas las tarjetas de divisas. Cada tarjeta debe mostrar la bandera circular del país, la tasa de cambio en texto brillante de alto contraste y un gráfico de líneas de tendencia de los últimos 6 meses utilizando ApexCharts.js para visualizar el crecimiento.
+
+En la parte superior (navbar), integra una foto de perfil circular (Juancito Peña) con bordes dobles neón y una animación de latido de corazón que, al hacer clic, despliegue un modal ancho (modal-lg) con fondo oscuro. El modal debe presentar la foto centrada, el título profesional "Senior Fintech Developer" y una biografía profesional resumida en máximo 2 párrafos que mencione más de 15 años de experiencia en desarrollo Full-Stack, Datos e IA. Debajo de la bio, organiza un "Tech Stack" con iconos y etiquetas neón para categorías de Frontend (React, Vue), Backend (Laravel, Python, .NET), Datos (SQL, Power BI) e Inteligencia Artificial (Gemini, ChatGPT, Claude, Qwen, Grok, DeepSeek, Mistral, Copilot, etc.). Finaliza el modal con botones sociales estilizados para YouTube, LinkedIn y GitHub, asegurando un diseño responsive y de alta legibilidad.
+
+Prepara el proyecto para usar variables de entorno y publicarlo de forma segura:
+
+- Estructura del proyecto:
+  - Carpeta del proyecto (por ejemplo: `finanzas-dop/`).
+  - `index.html` como archivo principal (puede referenciar `main.js`, `style.css`).
+  - `main.js` para la lógica de consumo de la API, cálculo y gráficos.
+  - `style.css` para estilos cyberpunk.
+- Instalación de dependencias:
+  - `npm init -y`
+  - `npm install vite`
+  - Incluir ApexCharts vía CDN en `index.html` o instalarlo:
+    - `npm install apexcharts` (si decides importarlo desde JS).
+- Scripts en `package.json`:
+  - `"dev": "vite"`
+  - `"build": "vite build"`
+  - `"preview": "vite preview"`
+- Archivo `.env`:
+  - Crear `.env` con:
+    - `VITE_EXCHANGERATE_API_KEY=aquí pon tu api key:`
+- Uso de la variable en el código:
+  - En `main.js`:
+    ```js
+    const API_KEY = import.meta.env.VITE_EXCHANGERATE_API_KEY;
+    ```
+- Archivo `.gitignore`:
+  - Incluir:
+    - `node_modules/`
+    - `dist/`
+    - `.env`
+- Build y publicación:
+  - `npm run build` para generar `dist/`.
+  - GitHub Pages: desplegar `dist/`.
+  - Vercel:
+    - Importar el repositorio.
+    - Configurar `VITE_EXCHANGERATE_API_KEY` en Environment Variables.
+    - Deploy automático.
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción de la app:
+  - Objetivo (mostrar tasas vs DOP y tendencias).
+  - Estética cyberpunk con tipografía Orbitron.
+- Uso de ExchangeRate-API:
+  - URL base, parámetros, cómo obtienes las 12 monedas principales y cómo calculas contra DOP.
+  - Uso de `API_KEY` desde `import.meta.env.VITE_EXCHANGERATE_API_KEY`.
+- Uso de ApexCharts:
+  - Cómo construyes los datos de los últimos 6 meses.
+  - Cómo configuras los gráficos de líneas.
+- Diseño del modal de perfil:
+  - Implementación de foto, animación, bio, tech stack y botones sociales.
+- Manejo de variables de entorno:
+  - Creación de `.env`.
+  - Configuración de `.gitignore`.
+  - Configuración de Environment Variables en Vercel.
+- Explicación de la IA usada:
+  - Cómo usaste este prompt y/o IA para definir diseño, textos de bio, estructura de tarjetas y gráficos.
+- Proceso para subirlo a GitHub:
+  - Creación del repositorio público.
+  - Subida del proyecto sin `.env`.
+- Publicación en GitHub Pages:
+  - Proceso de build y despliegue de `dist/`.
+- Publicación en Vercel:
+  - Conexión del repositorio con Vercel.
+  - Configuración de Environment Variables.
+  - Pruebas desde la URL pública.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub:  
+  `https://github.com/tu-usuario/tu-repo-finanzas`
+- URL pública de GitHub Pages:  
+  `https://tu-usuario.github.io/tu-repo-finanzas`
+- URL pública de Vercel:  
+  `https://tu-proyecto-finanzas.vercel.app`
+
+
+==============================================================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+🔥 CATÁLOGO DE PELÍCULAS TMDB CON PAGINACIÓN Y BÚSQUEDA – ONE FILE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Mandato
+Crea una página web que consuma la API de TMDB, muestre películas populares en tarjetas Bootstrap, con paginación y caja de búsqueda dinámica.
+
+# Prompt
+Crea una página web que consuma la API de TMDB para mostrar películas populares en tarjetas de Bootstrap. Cada tarjeta debe incluir póster, título, puntuación y sinopsis. Organiza las tarjetas en grupos de 4 por fila (card group) y agrega paginación para mostrar 12 películas por página. Aplica un correcto uso de UI/UX, Psicología de Color, colores de los párrafos, h1...h6, textos, etc., que tengan contraste con el fondo de la página y los objetos (cards, divs, secciones, etc.). Usa fetch en JavaScript, aplica un diseño moderno con fondo oscuro, sombras y cuadrícula responsive. API = aquí pon tu api key:, y agrega una caja de búsqueda dinámica, autodesplegable.
+
+Prepara el proyecto para usar variables de entorno y publicarlo de forma segura en GitHub Pages y Vercel:
+
+- Estructura del proyecto:
+  - Carpeta del proyecto (por ejemplo: `peliculas-tmdb/`).
+  - `index.html` como archivo principal (puede referenciar `main.js`, `style.css`).
+  - `main.js` para la lógica de fetch, paginación y búsqueda.
+  - `style.css` para estilos.
+- Instalación de dependencias:
+  - `npm init -y`
+  - `npm install vite`
+- Scripts en `package.json`:
+  - `"dev": "vite"`
+  - `"build": "vite build"`
+  - `"preview": "vite preview"`
+- Archivo `.env`:
+  - Crear `.env` con:
+    - `VITE_TMDB_API_KEY=aquí pon tu api key:`
+- Uso de la variable en el código:
+  - En `main.js`:
+    ```js
+    const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+    ```
+  - Usar `API_KEY` en las URLs de TMDB (populares, búsqueda, paginación).
+- Archivo `.gitignore`:
+  - Incluir:
+    - `node_modules/`
+    - `dist/`
+    - `.env`
+- Build y publicación:
+  - `npm run build` para generar `dist/`.
+  - GitHub Pages: desplegar `dist/`.
+  - Vercel:
+    - Importar el repositorio.
+    - Configurar `VITE_TMDB_API_KEY` en Environment Variables.
+    - Deploy automático.
+
+# Instrucciones de entrega y documentación
+
+## Documento en PDF (obligatorio)
+En la página web de la universidad debes subir un PDF que incluya:
+
+- Descripción de la app:
+  - Objetivo (listar películas populares, paginación y búsqueda).
+  - Diseño de UI/UX y psicología de color aplicada.
+- Uso de la API de TMDB:
+  - URL base, endpoints de películas populares y búsqueda.
+  - Parámetros (página, query, idioma, API key).
+  - Uso de `API_KEY` desde `import.meta.env.VITE_TMDB_API_KEY`.
+- Paginación y búsqueda dinámica:
+  - Cómo manejas el cambio de página (12 películas por página).
+  - Cómo funciona la caja de búsqueda autodesplegable.
+- Manejo de variables de entorno:
+  - Creación de `.env`.
+  - Configuración de `.gitignore`.
+  - Configuración de Environment Variables en Vercel.
+- Explicación de la IA usada:
+  - Cómo usaste este prompt y/o IA para definir estructura, textos, colores y comportamiento de la búsqueda.
+- Proceso para subirlo a GitHub:
+  - Creación del repositorio público.
+  - Subida del proyecto sin `.env`.
+- Publicación en GitHub Pages:
+  - Proceso de build y despliegue de `dist/`.
+- Publicación en Vercel:
+  - Conexión del repositorio con Vercel.
+  - Configuración de Environment Variables.
+  - Pruebas desde la URL pública.
+
+## URLs que deben aparecer en el PDF
+- URL del repositorio público en GitHub:  
+  `https://github.com/tu-usuario/tu-repo-peliculas`
+- URL pública de GitHub Pages:  
+  `https://tu-usuario.github.io/tu-repo-peliculas`
+- URL pública de Vercel:  
+  `https://tu-proyecto-peliculas.vercel.app`
