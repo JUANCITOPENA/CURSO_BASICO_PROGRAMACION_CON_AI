@@ -1,0 +1,319 @@
+=============================================================================================================================================
+PROYECTO BASICO PERO FUNDAMENTAL, DE INTELIGENCIA ARTIFICIAL APLICADA EN EL CAMPO DEL DESARROLLO DE APP. O COMO COMENZAR A GANAR DINERO.
+=============================================================================================================================================
+
+=============================================================================================================================================
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+=============================================================================================================================================
+
+https://gemini.google.com/
+https://aistudio.google.com/prompts/new_chat
+https://grok.com/
+https://chatgpt.com/
+https://grok.com/imagine
+https://chat.mistral.ai/
+https://chat.deepseek.com/
+https://chat.qwenlm.ai/
+https://claude.ai/
+https://v0.dev/chat
+https://llamacoder.together.ai/
+https://www.perplexity.ai/
+https://copilot.microsoft.com/
+https://www.kimi.com/
+https://hailuoai.video/
+
+
+
+=============================================================================================================================================
+Introducción: Un reto de innovación digital… y de aprendizaje acelerado
+=============================================================================================================================================
+
+Un grupo de estudiantes recibe un desafío: construir en menos de 5 horas una tienda online completa para la venta de vehículos, con diseño responsive, carrito de compras, simulación de pago y generación de factura en PDF. El reto no es menor: deben cumplir estándares modernos de accesibilidad, SEO, SEM y experiencia de usuario, utilizando únicamente HTML5, CSS3, JavaScript puro, Bootstrap 5 y Font Awesome.
+
+En paralelo, un desarrollador senior con años de experiencia decide enfrentarse al mismo reto, pero sin apoyo externo, confiando únicamente en su conocimiento acumulado y en su práctica profesional.
+
+Ambos parten del mismo punto: un archivo JSON con los datos de los vehículos. Sin embargo, no cuentan con las mismas herramientas. Los estudiantes se apoyan en la inteligencia artificial para guiar cada paso, entender las tecnologías, documentar el proceso y desplegar el proyecto en GitHub Pages y Vercel. El profesional, en cambio, recurre a su dominio técnico y a su intuición para resolver cada detalle.
+
+El resultado revela una nueva realidad: la IA no sustituye al desarrollador, pero sí transforma la velocidad y accesibilidad del desarrollo web. Permite que más personas —con o sin experiencia previa— puedan crear, experimentar y crecer en campos como el ecommerce y la programación frontend. Mientras el experto asegura calidad y precisión, los estudiantes logran ejecutar el proyecto y comprender las piezas del código gracias a la guía inteligente.
+
+=============================================================================================================================================
+
+PROMPT PARA CREAR UNA TIENDA SIMULADA: GARAGE ONLINE
+
+Crea tres archivos separados: index.html, style.css, y script.js para un sitio web de ecommerce altamente interactivo y sofisticado de venta de vehículos.  El sitio debe cumplir al 100% con los siguientes requisitos, utilizando solo HTML5, CSS3, y JavaScript puro (ES6+), además de Bootstrap 5 y Font Awesome para la iconografía.  Los datos de los vehículos deben ser consumidos dinámicamente del siguiente archivo JSON:  https://raw.githubusercontent.com/JUANCITOPENA/Pagina_Vehiculos_Ventas/refs/heads/main/vehiculos.json
+
+Requisitos Generales:
+
+1.  **Semántica y Accesibilidad:**
+
+    *   Implementar un HTML5 completamente semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, etc.).
+    *   Cumplir con las pautas WCAG (mínimo nivel AA) utilizando atributos ARIA apropiados para navegación y elementos interactivos.  Asegurar que la navegación sea fácilmente comprensible por lectores de pantalla.
+
+2.  **Diseño Adaptativo:**
+
+    *   Utilizar Bootstrap 5 para un diseño completamente adaptativo que funcione correctamente en múltiples navegadores (Chrome, Firefox, Safari, Edge) y dispositivos (escritorio, tabletas, móviles).
+
+3.  **Frontend Dinámico:**
+
+    *   **HTML (index.html):**
+        *   Estructura base: `<!DOCTYPE html>`, `lang="es"`, metadatos, enlaces a Bootstrap y Font Awesome (desde CDN).
+        *   Estructura del `header`:
+            *   Logo interactivo "GarageOnline" con un icono de coche (`<i class="fas fa-car">`).
+            *   Menú fijo con enlaces: "Inicio" y "Vehículos".  Usa clases de Bootstrap para la navegación (`navbar`, `navbar-expand-lg`, `nav-link`, etc.).
+            *   Barra de búsqueda (`<input type="text" id="searchInput">`).
+            *   Icono de carrito con un contador dinámico (`<i class="fas fa-shopping-cart">`, `<span id="cartCount">`).  El contador debe ser una insignia (badge) de Bootstrap.
+            *   Agrega una imagen de fondo, tipo backgroudn 100% expandida en el Header. (https://t4.ftcdn.net/jpg/02/82/00/75/360_F_282007508_wdCUP7hUMNK1Cuzj7XmOcFmzyzJ0Nnp9.jpg) ancho 100% y altura 50%.
+            *   Estructura de `main`:
+            *   Sección de Inicio (`<section id="inicio">`) con un mensaje de bienvenida.
+            *   Sección de Vehículos (`<section id="vehiculos">`):
+                *   Título "Nuestros Vehículos".
+                *   Contenedor dinámico (`<div class="row" id="productsContainer">`) donde se cargarán las tarjetas de los vehículos.
+                *   Mostrar un spinner de carga inicial (usar el spinner de Bootstrap) mientras se cargan los datos.  El spinner debe tener el ID "loadingSpinner".
+        *   Estructura del `footer`:
+            *   Información de derechos de autor.
+        *   Modales (usar componentes modales de Bootstrap):
+            *   Modal de Cantidad (`#quantityModal`):  Se abre antes de añadir un producto al carrito.  Debe tener un campo de entrada numérica (`<input type="number">` con `id="quantityInput"`) para la cantidad, un botón "Cancelar" y un botón "Añadir al Carrito" (`id="addToCartBtn"`).
+            *   Modal del Carrito (`#cartModal`):  Muestra los ítems del carrito (marca, modelo, cantidad, subtotal), el total del carrito (`<span id="cartTotal">`), un botón "Seguir viendo vehículos" y un botón "Pagar" (`id="checkoutBtn"`) que abre el modal de pago.  El contenido del carrito se debe insertar dinámicamente en un elemento con `id="cartItems"`.
+            *   Modal de Pago (`#paymentModal`):  Simula un proceso de pago.  Debe tener campos básicos (nombre, número de tarjeta,  no se requiere validación compleja), un botón "Cancelar" y un botón "Procesar Pago" (`id="processPaymentBtn"`).
+
+**Ventana Modal al hacer clic en la imagen o boton ver detalle:**
+
+Cuando se cargue la imagen con todas las tarjetas (cards), los detalles del vehículo y el botón "Añadir al carrito", al hacer clic en dicho botón debe abrirse una ventana modal con un ancho y alto suficientemente grandes para visualizar en detalle la foto del vehículo (usando su URL). Debajo de la imagen deben mostrarse los detalles organizados en una lista, junto con el botón "Añadir al carrito".
+
+
+Se añade un solo "oyente" de clic al contenedor principal que nunca cambia: #productsContainer.
+Este "oyente" está siempre activo.
+Cuando haces clic dentro de ese contenedor, el oyente se pregunta: "¿El elemento exacto en el que se hizo clic fue un botón con la clase .viewDetailsBtn?".
+Si la respuesta es sí, entonces ejecuta el código para abrir el modal.
+
+    *   **CSS (style.css):**
+        *   Estilos base para la página (fuente, padding para la barra de navegación fija).
+        *   Estilos para la barra de navegación (fondo oscuro, texto blanco, logo con negrita).
+        *   Estilos para las tarjetas de producto:
+            *   Margen inferior, sombra suave.
+            *   Transición suave al hacer hover (elevar ligeramente la tarjeta).
+            *   Altura fija para las imágenes (`object-fit: cover`).
+            *   Usar Flexbox para alinear verticalmente el contenido de la tarjeta (título, descripción, precio) y empujar el botón "Añadir al Carrito" al final de la tarjeta.
+            *   Altura fija para el título de la tarjeta (para que quepan hasta dos líneas) y para la descripción (una línea), usando `overflow: hidden`.
+        *   Estilos para los botones (colores primarios de Bootstrap, hover).
+        *   Animación "pulse" para el contador del carrito (cambio de escala sutil).
+        *   Estilo para el spinner de carga.
+
+    *   **JavaScript (script.js):**
+
+        *   **Carga de Datos:**
+            *   Usar la Fetch API (`async/await`) para leer los datos de los vehículos desde el archivo JSON proporcionado.
+            *   Manejar posibles errores durante la carga (mostrar un mensaje de error en `productsContainer`).
+            *   Almacenar los datos cargados en una variable `vehiclesData`.
+            *   Ocultar el spinner una vez cargados los datos.
+
+        *   **Mostrar Vehículos (`displayVehicles` function):**
+            *   Limpiar el contenido de `productsContainer` antes de insertar las tarjetas.
+            *   Iterar sobre el array de vehículos (`vehiclesData`).
+            *   Para cada vehículo, crear una tarjeta (elemento `div` con clases de Bootstrap para el grid: `col-md-4`, `col-sm-6`, `mb-4`, y `card`, `h-100`).
+            *   Dentro de la tarjeta:
+                *   Imagen del vehículo (`vehicle.imagen`, usar `loading="lazy"`).
+                *   Título (`vehicle.marca` y `vehicle.modelo`).
+                *   Categoría (`vehicle.categoria`).
+                *   Tipo (Quitar los emojis del campo `tipo`).
+                *   Precio (`vehicle.precio_venta`, formateado con `toLocaleString()`).
+                *   Botón "Añadir al Carrito" (clase `btn-primary`,  `data-codigo` con el valor de `vehicle.codigo`).
+            *   Añadir la tarjeta a `productsContainer`.
+            *   Después de crear *todas* las tarjetas, llamar a la función `addAddToCartListeners`.
+
+        *   **Filtrado (`filterVehicles` function):**
+            *   Obtener el texto de búsqueda (`searchInput.value`, convertir a minúsculas).
+            *   Filtrar `vehiclesData` usando `filter()`.  El filtro debe buscar coincidencias (en minúsculas) en los campos `marca`, `modelo` y `categoria`.
+            *   Llamar a `displayVehicles` con los vehículos filtrados.
+
+        *   **Gestión del Carrito:**
+            *   Variable `cart` (array) para almacenar los ítems del carrito.  Cada ítem debe ser un objeto con las propiedades: `imagen`,`logo`,`codigo`, `marca`, `modelo`, `precio`, `quantity`.
+            *   `addAddToCartListeners` function:
+                *   Seleccionar todos los botones con la clase `addToCartBtn`.
+                *   Añadir un event listener de tipo `click` a cada botón.
+                *   Dentro del listener:
+                    *   Obtener el `codigo` del vehículo desde el atributo `data-codigo` del botón (convertir a número con `parseInt`).
+                    *   Encontrar el vehículo correspondiente en `vehiclesData`.
+                    *   Llamar a `showQuantityModal` con el vehículo seleccionado.
+            *   `showQuantityModal` function:
+                *   Crear una instancia del modal de Bootstrap (`#quantityModal`).
+                *   Establecer el valor inicial de `quantityInput` a 1.
+                *   Asignar una función al evento `onclick` del botón `addToCartBtn` (dentro del modal):
+                    *   Obtener la cantidad ingresada (`quantityInput.value`, convertir a número).
+                    *   Validar que la cantidad sea mayor que 0.
+                    *   Si es válida, llamar a `addItemToCart` con el vehículo y la cantidad.
+                    *   Ocultar el modal.
+            *   `addItemToCart` function:
+                *   Buscar si el vehículo ya existe en el carrito (usando `codigo`).
+                *   Si existe, incrementar la cantidad.
+                *   Si no existe, añadir un nuevo objeto al array `cart`.
+                *   Llamar a `updateCartUI`.
+            *   `updateCartUI` function:
+                *   Limpiar el contenido de `cartItemsContainer`.
+                *   Iterar sobre el array `cart`.
+                *   Para cada ítem, calcular el subtotal (precio * cantidad).
+                *   Crear un elemento HTML (`<p>`) para mostrar la información del ítem (logo, imagen del auto, marca, modelo, cantidad, subtotal).
+                *   Añadir el elemento a `cartItemsContainer`.
+                *   Calcular el total del carrito.
+                *   Actualizar el contenido de `cartTotalSpan` con el total formateado.
+                *   Actualizar el contenido de `cartCount` con el número total de ítems en el carrito.
+
+        *   **Simulación de Pago y Generación de Factura:**
+            *   Añadir un event listener de tipo `click` al botón `processPaymentBtn`.
+            *   Dentro del listener:
+                *   Mostrar un mensaje de alerta indicando que el pago fue exitoso.
+                *   Llamar a `generateInvoice`.
+                *   Vaciar el array `cart`.
+                *   Llamar a `updateCartUI`.
+                *   Ocultar los modales de pago y carrito (usar `bootstrap.Modal.getInstance`).
+            *   `generateInvoice` function:
+                *   Crear una instancia de `jsPDF` (asegúrate de incluir la librería desde CDN en el HTML).
+                *   Añadir texto al PDF: el nombre, título de la factura, fecha, detalles de los ítems del carrito (marca, modelo, cantidad, subtotal), total.
+                *   Guardar el PDF con un nombre de archivo apropiado.
+
+        *   **Event Listeners:**
+            *   Añadir un event listener al evento `input` del `searchInput` para llamar a `filterVehicles`.
+            *  Asegurar que todo el script se ejecute dentro de un listener para el evento `DOMContentLoaded`.
+            * Llamar a la función `loadVehicles` para cargar los datos al inicio.
+
+4.  **Especificaciones Técnicas Clave:**
+
+    *   Uso de Bootstrap 5 para el layout y estilos base.
+    *   Uso de Font Awesome para iconos.
+    *   JavaScript puro (ES6+) para la lógica dinámica y la manipulación del DOM.
+    *   Consumo de la API JSON mediante `fetch()` y `async/await`.
+    *   Generación de PDF con jsPDF.
+    *   HTML Semántico y Accesibilidad.
+
+5. Output Esperado:
+    Proporciona el código completo y corregido para los tres archivos:
+       * index.html
+       * style.css
+       * script.js
+   Asegúrate de que todo funcione correctamente, se muestren los datos del json y el carrito funcione.
+
+
+Simular el formulario de pago:
+
+NOTA: OBLIGATIOR: Mostrar un formulario para introducir datos de pago (nombre, tarjeta, etc.) y un botón para finalizar la compra, BOTON PAGAR QUE CREE UN PDF CON LOS DETALLES DE LA COMPRA
+
+Por favor, asegúrate de que todas las funcionalidades solicitadas estén implementadas y que el código esté listo para copiar y pegar directamente. ¡Gracias!
+
+(Con Especificaciones Adicionales) 100% en HTML, CSS, JS Y DEMAS LIBRERIAS PARA FORMATOS CSS. NECESITO QUE CUMPLAS ESTO AL 100%:
+
+
+Recuerda seguir buenas prácticas de desarrollo web en UI/UX, basado en el usuario, diseño responsivo, adaptativo, memoria del navegador, persistencia, service workers, SEO y SEM. Mantén un código limpio y legible, utiliza etiquetas semánticas apropiadas, optimiza la velocidad de carga de las páginas para posicionamiento SEO y SEM, y asegúrate de que el sitio sea accesible (A11y), seguro (HTTPS), compatible entre navegadores y con un manejo adecuado de errores. Implementa analítica web para monitorear el rendimiento y considera el uso de CDN para mejorar la velocidad de carga
+
+
+=============================================================================================================================================
+Instrucción de Testing en el Prompt
+=============================================================================================================================================
+
+Además del desarrollo completo de los archivos index.html, style.css y script.js, el proyecto debe incluir obligatoriamente un bloque de testing automatizado en JavaScript.
+
+Este bloque debe:
+
+Crear una función runTests() que ejecute pruebas unitarias simples sobre las funciones principales del proyecto (loadVehicles, filterVehicles, addItemToCart, updateCartUI).
+
+Cada prueba debe mostrar en la consola del navegador un mensaje claro con console.log() indicando PASSED ✅ o FAILED ❌.
+
+Al final del script, la función runTests() debe ser llamada automáticamente después de que se cargue el DOM, para que los resultados aparezcan en la consola sin intervención del usuario.
+
+El estudiante debe poder abrir la consola del navegador (F12 → pestaña Console) y verificar que todas las funciones cumplen con lo esperado.
+
+
+=============================================================================================================================================
+-- PARTE DE DESARROLLO E IMPLEMENTACION---
+=============================================================================================================================================
+
+Una vez termine, crea un tutorial desde cero indicando qué es el desarrollo WEB, diseño WEB Y Maquetado Web, qué es la programación web y cuáles son las tecnologías más básicas (HTML, CSS, Bootstrap, Font Awesome y JS), y crea una breve explicación de cada una.Definiendo cada de estas tecnologias y su orden historico en el desarrollo. Hazlo pensando en un tema de investigacion educativa.
+
+En el caso del proyecto, indica paso a paso todo el código, comentando cada etapa del proyecto como si de un manual documentado se tratase. Luego, indica los pasos para poder aplicarlo en Visual Studio Code, haslo como si fuera un estudiante que no sabe aun nada concreto de programacion web, indicando cómo crear los archivos independientes.html, .css, .js, Indica cómo podemos visualizarlo en el navegador, si tenemos que instalar alguna extesion como la de live server, donde ubicarla, y cómo lo desplegamos en GitHub en este caso describe paso a paso de forma manual arrastrar y soltar la metologia de github para crear el proyecto, subir los archivos arrastrando y soltando, y luego como publicarloe en githubp pages. Descríbeme los pasos uno por uno, desde la creación de la cuenta hasta cómo crear el proyecto y el repositorio, con detalles, y cómo subirlo de forma manual buscando los archivos o arrastrándolos; la parte de comandos, óbviola por ahora.
+
+De igual describe los pasos para poder publicarlo en Vercel, enlazando este mismo proyecto vercel, sea publico o privado.
+
+Luego, explica cómo se despliega en GitHub Pages y vercel, paso a paso, y cómo se puede ver y compartir una vez termine. Detallando los paso explicativos
+
+=============================================================================================================================================
+--EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO:
+=============================================================================================================================================
+Has una metrica analizando segun los perfinles de un desarrollador que tiempo le puede tomar a cada uno hacer este proyecto completo: Analiza todos los aspectos ? involucra un programador aprendices, junir, senior, experto full stack, con experiencia promdio de experiencia sea  qe trabaje en una empresa o lo haga como freelancer? Dame el resultado en una Tabla con todos los detalles para pegar y copiar en excel.
+
+
+
+=============================================================================================================================================
+--💪 COMO ENTREGAR EL PROYECTO INDIVIDUAL:
+=============================================================================================================================================
+
+✅ Cada estudiante debe hacer el proyecto siguiendo los pasos que les da IA. Debe crear el proyecto en el escritorio de la PC con el nombre correspondiente, subirlo a GitHub y Vercel. Luego, debe hacer un manual tipo tutorial con la información proporcionada por la IA, copiándolo en un documento de Word, aplicándole formato, colores, etc. También debe agregar capturas de pantalla del proceso, Visual Studio, código HTML, código CSS, código JS y las páginas de GitHub y Vercel.
+
+✅ En el documento, debe incluir una presentación del estudiante, del profesor, la materia, la fecha y los enlaces. Los enlaces deben ser los públicos de GitHub, la URL pública del proyecto en GitHub Pages y la URL pública de Vercel, para poder navegar entre la página y el repositorio.
+
+✅ Deberá subir el documento en PDF a la página de la universidad en la sección correspondiente a este proyecto. Es importante que cumpla al 100% con los requisitos establecidos y que todos los enlaces funcionen correctamente.
+✅ Al final, debe incluir una CONCLUSIÓN junto con la tabla correspondiente.
+
+=============================================================================================================================================
+--FUERA DEL PROMPT REDACTE UNA CONCLUSIÓN SEGÚN LO SIGUIENTE:
+=============================================================================================================================================
+
+✅ Cada estudiante debe redactar una conclusión sobre este tema, expresando su opinión sincera acerca de la experiencia de desarrollar este proyecto. Debe reflexionar sobre el impacto que ha tenido en su vida y cómo aprovechará estos conocimientos a partir de hoy.
+
+✅ Además, debe compartir su perspectiva sobre el aprendizaje de nuevas habilidades, incluyendo el desarrollo web y la inteligencia artificial, considerando qué significa para él la capacidad de aprender cualquier cosa en la era digital.
+
+=============================================================================================================================================
+--📌 FORMATO ESTÁNDAR PARA EL TRABAJO
+=============================================================================================================================================
+
+✅ 1. Portada:
+
+- 🏫 Nombre de la universidad.
+- 📚 Nombre de la materia.
+- 📝 Título del proyecto.
+- 👤 Nombre del estudiante.
+- 🎓 Nombre del profesor.
+- 📅 Fecha de entrega.
+
+✅ 2. Introducción:
+
+- 🔍 Breve descripción del proyecto.
+- 🎯 Objetivos principales.
+- 🌍 Importancia del proyecto.
+
+✅ 3. Desarrollo:
+
+- 📌 Explicación paso a paso de la creación del proyecto.
+- 🖼️ Capturas de pantalla.
+- 🧑‍💻 Código fuente (HTML, CSS, JS).
+- 🔗 Enlaces públicos al repositorio de GitHub, carpta con los docuemtnos , y las URL Navegables de GitHub y Vercel.
+
+✅ 4. Conclusión:
+
+- 💭 Reflexión personal sobre el aprendizaje y el impacto del proyecto.
+
+✅ 5. Bibliografía (si aplica):
+
+- 📖 Referencias utilizadas. Que Inteligencia Artificial utilizaste o que otro recus
+
+=============================================================================================================================================
+-- 💾 CÓMO GUARDAR EL DOCUMENTO EN WORD Y PDF
+=============================================================================================================================================
+
+✅ Guardar en Word (.docx):
+
+🔹 Abre Microsoft Word y asegúrate de que tu documento está completo.
+🔹 Haz clic en "Archivo" en la barra superior.
+🔹 Selecciona "Guardar como".
+🔹 Elige la ubicación donde quieres guardarlo.
+🔹 En "Tipo de archivo", selecciona "Documento de PDF (*.pdf)".
+🔹 Escribe un nombre apropiado y haz clic en "Guardar".
+
+✅ Guardar en PDF:
+
+🔸 Abre tu documento en Microsoft Word.
+🔸 Haz clic en "Archivo" y selecciona "Exportar".
+🔸 Elige "Crear PDF/XPS".
+🔸 Escoge la ubicación donde deseas guardar el archivo.
+🔸 Asegúrate de que el tipo de archivo sea PDF (*.pdf).
+🔸 Haz clic en "Publicar"
+
+

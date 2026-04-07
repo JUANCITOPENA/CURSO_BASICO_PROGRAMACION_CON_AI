@@ -1,0 +1,85 @@
+=======================================================================================================
+📝 RETO TÉCNICO- BASE DE DATOS DE NEGOCIO (SQL SERVER)
+=======================================================================================================
+Contexto:
+
+Una empresa necesita gestionar sus productos, pedidos y despachos/facturación. Se requiere diseñar y programar una base de datos en SQL Server que permita almacenar la información, realizar operaciones CRUD, generar reportes y asegurar auditoría de cambios.
+
+Instrucciones del reto:
+
+1. Modelado de tablas:
+
+Crear 3 tablas principales:
+
+Producto: IdProducto, Nombre, Precio, Stock
+Pedido: IdPedido, Fecha, Cliente, IdProducto, Cantidad
+Despacho: IdDespacho, IdPedido, FechaDespacho, Estado
+
+Definir relaciones:
+
+Pedido → Producto (FK)
+Despacho → Pedido (FK)
+
+Insertar mínimo 5 registros de ejemplo en cada tabla.
+
+2. CRUD básico
+
+Implementar operaciones para cada tabla:
+Insertar nuevos registros
+Consultar registros existentes
+Actualizar registros
+Eliminar registros
+
+3. Consultas SQL
+
+5 consultas básicas (ejemplo: listar productos, pedidos por cliente, despachos pendientes).
+5 consultas avanzadas (ejemplo: productos más vendidos, total facturado por cliente, despachos por rango de fechas, pedidos con más de X cantidad, reporte cruzado de pedidos-productos-despachos).
+
+4. Vistas:
+
+Crear 5 vistas completas, incluyendo:
+
+Una vista que relacione las 3 tablas mostrando un reporte general con nombres de campos descriptivos (Cliente, Producto, Cantidad, Estado del despacho).
+
+Vistas parciales (ejemplo: productos con stock bajo, pedidos recientes, despachos pendientes).
+
+5. Stored Procedures (SP):
+
+Desarrollar 3 SP completos para CRUD (uno por tabla).
+
+Cada SP debe incluir validaciones de datos (ejemplo: no permitir stock negativo, no permitir pedidos sin producto).
+
+6. Triggers:
+
+Crear 3 triggers de auditoría CRUD:
+
+Insert
+Update
+Delete
+
+Los triggers deben registrar la acción en una tabla de auditoría (IdLog, Tabla, Acción, Fecha, Usuario).
+
+7. Reportes:
+
+Generar reportes donde los IDs se sustituyan por nombres de campos (ejemplo: mostrar NombreProducto en vez de IdProducto).
+
+Reporte general que combine las 3 tablas con datos completos (Cliente, Producto, Cantidad, Estado del despacho).
+
+📊 Evaluación:
+
+Correctitud técnica: ¿Las tablas, relaciones y claves están bien definidas?
+
+Funcionalidad: ¿CRUD, consultas, vistas, SP y triggers funcionan correctamente?
+
+Creatividad: ¿Los reportes y consultas avanzadas aportan valor real?
+
+Tiempo de ejecución: ¿Cuánto tardó cada estudiante en completar el reto?
+
+Documentación: ¿El código incluye comentarios claros y explicativos?
+
+🎯 Objetivo del reto
+Medir el nivel de dominio de SQL Server en modelado, programación y análisis de datos.
+
+Evaluar la capacidad de los estudiantes para resolver problemas reales sin apoyo de IA.
+
+

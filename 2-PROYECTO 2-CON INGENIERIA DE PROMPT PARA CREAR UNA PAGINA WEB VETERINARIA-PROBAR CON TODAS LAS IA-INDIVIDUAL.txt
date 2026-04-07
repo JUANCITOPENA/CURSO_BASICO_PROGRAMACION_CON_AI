@@ -1,0 +1,273 @@
+=============================================================================================================================================
+PROYECTO BASICO PERO FUNDAMENTAL, DE INTELIGENCIA ARTIFICIAL APLICADA EN EL CAMPO DEL DESARROLLO DE APP. O COMO COMENZAR A GANAR DINERO.
+=============================================================================================================================================
+
+=============================================================================================================================================
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+=============================================================================================================================================
+https://gemini.google.com/
+https://aistudio.google.com/prompts/new_chat
+https://grok.com/
+https://chatgpt.com/
+https://grok.com/imagine
+https://chat.mistral.ai/
+https://chat.deepseek.com/
+https://chat.qwenlm.ai/
+https://claude.ai/
+https://v0.dev/chat
+https://llamacoder.together.ai/
+https://www.perplexity.ai/
+https://copilot.microsoft.com/
+https://www.kimi.com/
+https://hailuoai.video/
+=============================================================================================================================================
+
+=============================================================================================================================================
+Introducción: Una carrera contra el tiempo… y contra el cambio:
+=============================================================================================================================================
+
+Una empresa lanza un desafío urgente: desarrollar en menos de 5 horas una página web completa para una clínica veterinaria, con diseño responsive, funcionalidades completas y estándares modernos. Dos perfiles reciben el reto:
+
+- Un equipo de estudiantes sin experiencia previa profesional, pero con un arma poderosa: la inteligencia artificial.
+- Un desarrollador con años de experiencia, que decide enfrentarlo “a la antigua”: solo con su conocimiento, sin ayuda de IA.
+
+Ambos cuentan con el mismo plazo… pero no con las mismas herramientas.
+
+Este escenario no es ficción, es un reflejo realista del presente. La IA ya no es solo una curiosidad futurista—es una aliada diaria que acorta distancias entre la experiencia y el aprendizaje. Mientras el profesional puede dominar con soltura lenguajes y estructuras, los estudiantes, apoyados por IA, logran ejecutar el proyecto, entender las piezas del código, y resolver problemas a medida que surgen.
+
+El resultado plantea una nueva verdad: la IA no reemplaza al desarrollador… pero sí transforma la velocidad y accesibilidad del desarrollo. Y no solo eso: también impulsa a que más personas —con o sin experiencia previa— puedan crear, experimentar y crecer en campos como el desarrollo web.
+
+
+La IA que probamos fue la de:
+
+https://gemini.google.com/
+
+https://aistudio.google.com/prompts/new_chat
+
+Pueden probar con todas las Demas
+
+=============================================================================================================================================
+INICIO DEL PROMPT:
+============================================================================================================================================
+
+--Crea una carpeta con el nombre del proyecto, y crea los archivos como sigue todo:
+
+Asume el Rol: Actua como Desarrollador Frontend y Crea una página web completa para una Clínica Veterinaria con las siguientes especificaciones 
+técnicas: TIENES QUE DARME LOS ARCHIVOS EN 3 script. 3 archivos 1-index.html, 2- style.css, y 3-script.js
+
+Con las siguientes especificaciones técnicas:
+
+1. **Tecnologías Requeridas:**  
+
+   - Bootstrap 5.3.0 (usar CDN)  
+   - Font Awesome 6.0 (usar CDN)  
+   - CSS personalizado con variables  
+   - HTML semántico  
+   - JavaScript básico para validaciones  
+
+2. **Estructura Obligatoria:**  
+
+   - Menú fijo superior responsivo con: Inicio, Servicios, Equipo, Contacto  
+   - Sección Inicio:  
+     * Título principal con emojis  
+     * Párrafo introductorio  
+     * Imagen destacada (usar URL: https://images.unsplash.com/photo-1583337130417-3346a1be7dee) en banner 100% del ancho. 
+     * Botón CTA grande  
+
+   - Sección Servicios (3 cards):  
+
+     * Card 1: Consulta General (imagen: https://purina.com.do/sites/default/files/2022-10/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg)  
+     * Card 2: Cirugías (imagen: https://holavet.com.ar/wp-content/uploads/2022/04/close-up-on-veterinarian-taking-care-of-pet-1.webp)  
+     * Card 3: Peluquería (imagen: https://neozoo.com.ar/wp-content/uploads/2023/06/Iconos-e-imagenes-09.png)  
+     * Cada card debe tener: ícono Font Awesome, título, descripción breve.  
+
+   - Sección Equipo (3 veterinarios):  
+
+     * Perfil 1: Dra. Ana López (foto: https://randomuser.me/api/portraits/women/45.jpg)  
+     * Perfil 2: Dr. Carlos Méndez (foto: https://randomuser.me/api/portraits/men/75.jpg)  
+     * Perfil 3: Dra. Laura Gómez (foto: https://randomuser.me/api/portraits/women/68.jpg)  
+     * Cada perfil: foto circular, nombre, especialidad, descripción  
+
+   - Sección lo que dicen nuestros clientes: (10 clientes):  
+
+Dame una sección que diga “Lo que dicen nuestros clientes”, con un card group tipo carrusel, con 4 cards por vista del carrusel. Agrega 10 en total con datos ficticios de clientes, comentarios, emojis e íconos. Una imagen genérica de la API de user random con borde, que sea circular y tenga un efecto animado de latido del corazón. Además, las cards deben tener bordes animados con colores diferentes tipo arcoíris. Y los botones de avance (derecha e izquierda) deben estar fuera del card group, que no estén solapados.
+
+
+   - Sección Contacto:  
+     * Tarjeta con número de teléfono grande (LOCALIDAD DOMINICANA)  
+     * Botón de WhatsApp con ícono  
+     * Formulario con validación (nombre, email, mensaje). Que funcione llamando el correo para poder enviarlo.
+     * Ventana Modal Confirmacion Simulacro de Envio de Correo con mensaje con emojis. Que detecte cuando se abre el navegador u la aplicacion de correo, y salga la ventana modal.  
+
+   - Footer:  
+     * 5 iconos sociales (Facebook, Instagram, Twitter, LinkedIn, YouTube)  
+     * Información de dirección y horarios  
+
+3. **Diseño Específico:**  
+
+   - Paleta de colores: #2C3E50 (primario), #18BC9C (secundario), #F39C12 (acento)  
+   - Efectos hover en tarjetas y botones  
+   - Sombras en cards y formulario  
+   - Imágenes responsive con object-fit: cover  
+   - Tipografía: Arial con jerarquía clara  
+
+4. **Funcionalidades:**  
+
+   - Validación de email en formulario  
+   - Enlaces funcionales de teléfono/WhatsApp  
+   - Scroll suave entre secciones  
+   - Animación al hacer hover en tarjeta de contacto  
+
+**Instrucciones Estrictas:**  
+
+- Usar solo CDNs oficiales  
+- Incluir TODO el código en archivos .html, .css, .js  
+- No dejar placeholders ni comentarios de TODO  
+- Asegurar compatibilidad móvil  
+- Implementar CSS personalizado con:  
+  * Variables CSS  
+  * Selectores específicos  
+  * Media queries para responsividad 
+
+**Nota Genera**
+
+Genera el código completo listo para copiar/pegar sin explicaciones adicionales mas que los comentarios y el script completo en HTML, CSS, JS. Incluye todos los elementos solicitados usando exactamente las URLs de imágenes proporcionadas. El código final debe funcionar inmediatamente al guardarse como .html, .css, .js y abrirse en navegador. 
+
+Recuerda seguir buenas prácticas de desarrollo web en UI/UX, basado en el usuario, diseño responsivo, adaptativo, memoria del navegador, persistencia, service workers, SEO y SEM. Mantén un código limpio y legible, utiliza etiquetas semánticas apropiadas, optimiza la velocidad de carga de las páginas para posicionamiento SEO y SEM, y asegúrate de que el sitio sea accesible (A11y), seguro (HTTPS), compatible entre navegadores y con un manejo adecuado de errores. Implementa analítica web para monitorear el rendimiento y considera el uso de CDN para mejorar la velocidad de carga
+
+=============================================================================================================================================
+-- PARTE DE DESARROLLO E IMPLEMENTACION---
+=============================================================================================================================================
+
+✅ Una vez termines, crea un tutorial desde cero sobre desarrollo web, diseño web y maquetado web. Explica paso a paso el proyecto, desde qué es la programación web y cuáles son las tecnologías más fundamentales (HTML, CSS, Bootstrap, Font Awesome y JavaScript). Incluye una breve explicación de cada una, definiéndolas en orden histórico dentro del desarrollo web. Piensa en este contenido como un recurso educativo para investigación. y Luego como la hemos usado en este proyecto, bien resumido, pero paso a paso.
+
+✅ En cuanto al proyecto, proporciona una guía detallada con código paso a paso, comentando cada etapa como si fuera un manual documentado. Luego, explica cómo aplicarlo en Visual Studio Code, dirigido a estudiantes que aún no tienen conocimientos específicos sobre programación web.
+
+✅ Incluye instrucciones sobre cómo crear los archivos independientes (.html, .css, .js), cómo visualizarlo en el navegador, y si es necesario instalar extensiones como Live Server, especificando dónde encontrarla y cómo usarla.
+
+✅ También detalla cómo desplegar el proyecto en GitHub, describiendo paso a paso el método manual de arrastrar y soltar para subir archivos, crear el repositorio y publicarlo en GitHub Pages. Explica cada paso desde la creación de la cuenta hasta la publicación del proyecto, evitando por ahora la parte de comandos. Dame la guia desde la creacion de la cuenta, la creacion del proyecto, y como subir los archivos arrastrando y soltando.
+
+✅ Adicionalmente, describe cómo publicar el mismo proyecto en Vercel, ya sea público o privado, y cómo enlazarlo correctamente con Github.
+Finalmente, proporciona una guía detallada sobre cómo desplegar el proyecto en GitHub Pages y Vercel, explicando cómo visualizarlo y compartirlo una vez terminado."**. Debes indicar como crear una cuenta en vercel, como vincularla con github, como importar el proyecto, esto debe sjacer paso a paso pero resumido.
+
+=============================================================================================================================================
+EN RESUMEN ESTO: 📌 PARTE DE DESARROLLO E IMPLEMENTACIÓN
+=============================================================================================================================================
+
+✅ 1. Crear un tutorial desde cero sobre desarrollo web
+🔹 Explicar detalladamente qué es la programación web y sus fundamentos.
+🔹 Presentar HTML, CSS, Bootstrap, Font Awesome y JavaScript en orden histórico.
+🔹 Redactar una breve descripción de cada tecnología y su importancia.
+🔹 Mostrar cómo se han usado en el proyecto, de manera resumida pero paso a paso.
+
+✅ 2. Documentar el proyecto con código detallado
+🔹 Proveer una guía paso a paso, con comentarios en el código explicando cada sección.
+🔹 Enfocarse en facilitar la comprensión para estudiantes sin conocimientos previos.
+
+✅ 3. Instrucciones sobre archivos y herramientas
+🔹 Explicar cómo crear y organizar archivos independientes (.html, .css, .js).
+🔹 Indicar cómo visualizar el proyecto en el navegador.
+🔹 Detallar el proceso de instalación de Live Server, dónde encontrarlo y cómo usarlo.
+
+✅ 4. Subida y publicación en GitHub Pages (sin comandos)
+🔹 Crear una cuenta en GitHub, detallando el proceso de registro.
+🔹 Crear un repositorio, explicando configuración y opciones.
+🔹 Subir archivos utilizando el método de arrastrar y soltar.
+🔹 Activar GitHub Pages y obtener la URL pública del proyecto.
+
+✅ 5. Publicación en Vercel
+🔹 Explicar cómo crear una cuenta en Vercel paso a paso.
+🔹 Detallar cómo vincular Vercel con GitHub y cómo importar el proyecto.
+🔹 Incluir una guía resumida pero clara sobre el despliegue en Vercel.
+🔹 Proporcionar instrucciones para visualizar y compartir el proyecto.
+
+=============================================================================================================================================
+--EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO:
+=============================================================================================================================================
+✅ Realiza una métrica analizando, según los perfiles de desarrollador, cuánto tiempo les tomaría completar este proyecto en su totalidad. Incluye todos los aspectos involucrados.
+
+✅ Considera distintos niveles de experiencia: aprendiz, junior, senior y experto full stack. Además, analiza el tiempo estimado para cada perfil según su modalidad de trabajo, ya sea en una empresa o como freelancer.
+
+✅ Presenta los resultados en una tabla bien estructurada, con todos los detalles, lista para copiar y pegar en Excel.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+💪 FIN DEL PROMPT:=============================================================================================================================================
+--💪 COMO ENTREGAR EL PROYECTO INDIVIDUAL:
+=============================================================================================================================================
+
+✅ Cada estudiante debe hacer el proyecto siguiendo los pasos que les da IA. Debe crear el proyecto en el escritorio de la PC con el nombre correspondiente, subirlo a GitHub y Vercel. Luego, debe hacer un manual tipo tutorial con la información proporcionada por la IA, copiándolo en un documento de Word, aplicándole formato, colores, etc. También debe agregar capturas de pantalla del proceso, Visual Studio, código HTML, código CSS, código JS y las páginas de GitHub y Vercel.
+
+✅ En el documento, debe incluir una presentación del estudiante, del profesor, la materia, la fecha y los enlaces. Los enlaces deben ser los públicos de GitHub, la URL pública del proyecto en GitHub Pages y la URL pública de Vercel, para poder navegar entre la página y el repositorio.
+
+✅ Deberá subir el documento en PDF a la página de la universidad en la sección correspondiente a este proyecto. Es importante que cumpla al 100% con los requisitos establecidos y que todos los enlaces funcionen correctamente.
+✅ Al final, debe incluir una CONCLUSIÓN junto con la tabla correspondiente.
+
+=============================================================================================================================================
+--FUERA DEL PROMPT REDACTE UNA CONCLUSIÓN SEGÚN LO SIGUIENTE:
+=============================================================================================================================================
+
+✅ Cada estudiante debe redactar una conclusión sobre este tema, expresando su opinión sincera acerca de la experiencia de desarrollar este proyecto. Debe reflexionar sobre el impacto que ha tenido en su vida y cómo aprovechará estos conocimientos a partir de hoy.
+
+✅ Además, debe compartir su perspectiva sobre el aprendizaje de nuevas habilidades, incluyendo el desarrollo web y la inteligencia artificial, considerando qué significa para él la capacidad de aprender cualquier cosa en la era digital.
+
+=============================================================================================================================================
+--📌 FORMATO ESTÁNDAR PARA EL TRABAJO
+=============================================================================================================================================
+
+✅ 1. Portada:
+
+- 🏫 Nombre de la universidad.
+- 📚 Nombre de la materia.
+- 📝 Título del proyecto.
+- 👤 Nombre del estudiante.
+- 🎓 Nombre del profesor.
+- 📅 Fecha de entrega.
+
+✅ 2. Introducción:
+
+- 🔍 Breve descripción del proyecto.
+- 🎯 Objetivos principales.
+- 🌍 Importancia del proyecto.
+
+✅ 3. Desarrollo:
+
+- 📌 Explicación paso a paso de la creación del proyecto.
+- 🖼️ Capturas de pantalla.
+- 🧑‍💻 Código fuente (HTML, CSS, JS).
+- 🔗 Enlaces públicos al repositorio de GitHub, carpta con los docuemtnos , y las URL Navegables de GitHub y Vercel.
+
+✅ 4. Conclusión:
+
+- 💭 Reflexión personal sobre el aprendizaje y el impacto del proyecto.
+
+✅ 5. Bibliografía (si aplica):
+
+- 📖 Referencias utilizadas. Que Inteligencia Artificial utilizaste o que otro recus
+
+=============================================================================================================================================
+-- 💾 CÓMO GUARDAR EL DOCUMENTO EN WORD Y PDF
+=============================================================================================================================================
+
+✅ Guardar en Word (.docx):
+
+🔹 Abre Microsoft Word y asegúrate de que tu documento está completo.
+🔹 Haz clic en "Archivo" en la barra superior.
+🔹 Selecciona "Guardar como".
+🔹 Elige la ubicación donde quieres guardarlo.
+🔹 En "Tipo de archivo", selecciona "Documento de PDF (*.pdf)".
+🔹 Escribe un nombre apropiado y haz clic en "Guardar".
+
+✅ Guardar en PDF:
+
+🔸 Abre tu documento en Microsoft Word.
+🔸 Haz clic en "Archivo" y selecciona "Exportar".
+🔸 Elige "Crear PDF/XPS".
+🔸 Escoge la ubicación donde deseas guardar el archivo.
+🔸 Asegúrate de que el tipo de archivo sea PDF (*.pdf).
+🔸 Haz clic en "Publicar"
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+

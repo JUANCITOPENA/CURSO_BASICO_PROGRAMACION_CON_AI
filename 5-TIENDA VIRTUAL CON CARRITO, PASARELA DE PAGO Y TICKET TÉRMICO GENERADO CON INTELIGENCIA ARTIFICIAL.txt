@@ -1,0 +1,290 @@
+=============================================================================================================================================
+PROYECTO BÁSICO PERO FUNDAMENTAL, DE INTELIGENCIA ARTIFICIAL APLICADA EN EL DESARROLLO DE E-COMMERCE. O CÓMO COMENZAR A GANAR DINERO DESDE TU NAVEGADOR.
+=============================================================================================================================================
+
+=============================================================================================================================================
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+=============================================================================================================================================
+https://chat.mistral.ai/  
+https://chat.deepseek.com/  
+https://chat.qwenlm.ai/  
+https://chatgpt.com/  
+https://gemini.google.com/  
+https://claude.ai/  
+https://v0.dev/chat  
+https://llamacoder.together.ai/  
+https://www.perplexity.ai/  
+https://copilot.microsoft.com/  
+https://www.kimi.com/  
+https://hailuoai.video/  
+=============================================================================================================================================
+
+=============================================================================================================================================
+Introducción: El comercio digital no espera… y la IA tampoco:
+=============================================================================================================================================
+
+Un emprendedor recibe un reto urgente: crear en menos de 5 horas una tienda virtual funcional, con carrito de compras, pasarela de pago y ticket térmico imprimible. El objetivo: vender productos reales, simular una compra completa y generar un recibo como en cualquier negocio físico.
+
+Dos perfiles se enfrentan al desafío:
+
+- Un joven sin experiencia previa en desarrollo, pero con acceso a inteligencia artificial.
+- Un desarrollador tradicional que decide hacerlo “a mano”, sin ayuda de IA.
+
+Ambos tienen el mismo objetivo… pero no las mismas herramientas.
+
+Este escenario no es hipotético: es una realidad que se repite cada día. La IA no solo acelera el desarrollo, también democratiza el acceso a soluciones profesionales. Mientras el programador domina estructuras complejas, el emprendedor, guiado por IA, logra construir una tienda funcional, entender el código y adaptarlo a sus necesidades.
+
+El resultado es claro: la IA no reemplaza al desarrollador… pero sí abre las puertas del comercio digital a miles de personas que antes no podían participar.
+
+La IA que probamos fue la de https://copilot.microsoft.com/, pero puedes usar cualquiera de las mencionadas arriba.
+
+=============================================================================================================================================
+INICIO DEL PROMPT:
+============================================================================================================================================
+
+
+=============================================================================================================================================
+🧠 Prompt para generar una página web de ventas con carrito y pasarela de pago
+=============================================================================================================================================
+
+🎯 **Objetivo:**  
+Crear una página web de ventas moderna, responsiva y funcional que consuma la API pública [https://fakestoreapi.com/products](https://fakestoreapi.com/products), mostrando los productos en tarjetas (cards) con imagen, título, descripción y precio. Debe incluir un sistema de carrito de compras, una ventana modal para ver detalles ampliados del producto, una pasarela de pago básica y generación de ticket en PDF.
+
+---
+
+🧩 **Tecnologías requeridas**
+- HTML5, CSS3, JavaScript (ES6+)
+- Bootstrap 5 para diseño responsivo
+- Font Awesome para íconos
+- jsPDF para generar el ticket en PDF
+- Fetch API para consumir productos
+- LocalStorage para persistencia del carrito
+
+---
+
+🎨 **Diseño UI/UX y psicología del color**
+- Paleta de colores:
+  - 🎯 Primario: Azul eléctrico (#007BFF) — confianza y acción
+  - 🛒 Secundario: Verde (#28A745) — éxito y compra
+  - 🧾 Fondo: Blanco (#FFFFFF) — limpieza y claridad
+  - 🖤 Texto: Gris oscuro (#343A40) — legibilidad
+- Tipografía: Roboto o Open Sans
+- Logo: Ícono de carrito 🛒 + nombre de la tienda ficticia (ej. “ShopMaster”)
+- Emojis: Usar en botones y mensajes para mejorar la experiencia (ej. 🛍️, ✅, 💳)
+
+---
+
+📦 **Componentes funcionales**
+1. 🖼️ Cards de productos  
+   - Imagen del producto  
+   - Título  
+   - Precio  
+   - Botón “Ver más” → abre modal  
+
+2. 🔍 Modal de producto  
+   - Imagen grande centrada  
+   - Lista de detalles (categoría, descripción, precio)  
+   - Botón “Agregar al carrito” 🛒  
+   - Selector de cantidad  
+
+3. 🛒 Carrito de compras  
+   - Lista de productos añadidos  
+   - Opciones para modificar cantidad o eliminar  
+   - Total acumulado  
+   - Botón “Ir a pagar” 💳  
+
+4. 💳 Pasarela de pago (simulada)  
+   - Formulario con:  
+     - Nombre completo  
+     - Número de tarjeta  
+     - Fecha de vencimiento  
+     - Código de seguridad  
+   - Validación básica  
+   - Botón “Pagar ahora” ✅  
+
+5. 🧾 Ticket de compra en PDF  
+   - Datos del usuario  
+   - Nombre de la empresa ficticia  
+   - Fecha y hora  
+   - Lista de productos comprados con cantidad y precio  
+   - Total final  
+   - Generado con jsPDF y descargable  
+   - **Formato pequeño tipo recibo térmico (58 mm o 80 mm de ancho)**  
+   - **Fuente monoespaciada, sin logos, solo texto limpio y claro**
+
+---
+
+🧠 **Extras opcionales**
+- Animaciones suaves con CSS  
+- Mensajes de confirmación con alertas Bootstrap  
+- Iconos Font Awesome en botones (🗑️, ➕, 💳)  
+- Responsive para móviles y tablets  
+
+---
+
+🧪 **Prompt final para generador de código**
+
+> **Genera una página web de ventas moderna y responsiva usando HTML, CSS, JS, Bootstrap y Font Awesome. Consume la API https://fakestoreapi.com/products para mostrar productos en tarjetas con imagen, título, descripción y precio. Al hacer clic en “Ver más”, abre una ventana modal con la imagen grande centrada, detalles del producto en lista y botón para agregar al carrito. El carrito debe permitir modificar cantidades, eliminar productos y mostrar el total. Al pagar, mostrar un formulario con nombre, número de tarjeta, vencimiento y código de seguridad. Al confirmar, generar un ticket de compra en PDF con jsPDF, en formato pequeño tipo recibo térmico, sin logos, con nombre del negocio, fecha, nombre del cliente, lista de productos, cantidades, precios y total. Usar fuente monoespaciada, diseño limpio y dimensiones ajustadas para impresión térmica.**
+
+=============================================================================================================================================
+¿POR QUÉ FUNCIONA ESTE PROYECTO?
+=============================================================================================================================================
+
+✅ Porque usa una API real y gratuita  
+✅ Porque simula una tienda completa con carrito y pago  
+✅ Porque genera un ticket imprimible como los de cualquier negocio  
+✅ Porque puede adaptarse a cualquier rubro: ropa, comida, electrónica, etc.  
+✅ Porque es ideal para aprender, enseñar o emprender  
+
+=============================================================================================================================================
+¿CÓMO PUEDES MONETIZARLO?
+=============================================================================================================================================
+
+💡 Ofrece tiendas personalizadas a negocios locales  
+💡 Vende el código como plantilla editable  
+💡 Úsalo como portafolio para conseguir clientes  
+💡 Conviértelo en app móvil con frameworks como Flutter o MAUI  
+💡 Integra pasarelas reales como Stripe o PayPal  
+
+=============================================================================================================================================
+CONCLUSIÓN: LA IA NO SOLO AYUDA A PROGRAMAR… AYUDA A EMPRENDER.
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+-- PARTE DE DESARROLLO E IMPLEMENTACION---
+=============================================================================================================================================
+
+✅ Una vez termines, crea un tutorial desde cero sobre desarrollo web, diseño web y maquetado web. Explica paso a paso el proyecto, desde qué es la programación web y cuáles son las tecnologías más fundamentales (HTML, CSS, Bootstrap, Font Awesome y JavaScript). Incluye una breve explicación de cada una, definiéndolas en orden histórico dentro del desarrollo web. Piensa en este contenido como un recurso educativo para investigación. y Luego como la hemos usado en este proyecto, bien resumido, pero paso a paso.
+
+✅ En cuanto al proyecto, proporciona una guía detallada con código paso a paso, comentando cada etapa como si fuera un manual documentado. Luego, explica cómo aplicarlo en Visual Studio Code, dirigido a estudiantes que aún no tienen conocimientos específicos sobre programación web.
+
+✅ Incluye instrucciones sobre cómo crear los archivos independientes (.html, .css, .js), cómo visualizarlo en el navegador, y si es necesario instalar extensiones como Live Server, especificando dónde encontrarla y cómo usarla.
+
+✅ También detalla cómo desplegar el proyecto en GitHub, describiendo paso a paso el método manual de arrastrar y soltar para subir archivos, crear el repositorio y publicarlo en GitHub Pages. Explica cada paso desde la creación de la cuenta hasta la publicación del proyecto, evitando por ahora la parte de comandos. Dame la guia desde la creacion de la cuenta, la creacion del proyecto, y como subir los archivos arrastrando y soltando.
+
+✅ Adicionalmente, describe cómo publicar el mismo proyecto en Vercel, ya sea público o privado, y cómo enlazarlo correctamente con Github.
+Finalmente, proporciona una guía detallada sobre cómo desplegar el proyecto en GitHub Pages y Vercel, explicando cómo visualizarlo y compartirlo una vez terminado."**. Debes indicar como crear una cuenta en vercel, como vincularla con github, como importar el proyecto, esto debe sjacer paso a paso pero resumido.
+
+=============================================================================================================================================
+EN RESUMEN ESTO: 📌 PARTE DE DESARROLLO E IMPLEMENTACIÓN
+=============================================================================================================================================
+
+✅ 1. Crear un tutorial desde cero sobre desarrollo web
+🔹 Explicar detalladamente qué es la programación web y sus fundamentos.
+🔹 Presentar HTML, CSS, Bootstrap, Font Awesome y JavaScript en orden histórico.
+🔹 Redactar una breve descripción de cada tecnología y su importancia.
+🔹 Mostrar cómo se han usado en el proyecto, de manera resumida pero paso a paso.
+
+✅ 2. Documentar el proyecto con código detallado
+🔹 Proveer una guía paso a paso, con comentarios en el código explicando cada sección.
+🔹 Enfocarse en facilitar la comprensión para estudiantes sin conocimientos previos.
+
+✅ 3. Instrucciones sobre archivos y herramientas
+🔹 Explicar cómo crear y organizar archivos independientes (.html, .css, .js).
+🔹 Indicar cómo visualizar el proyecto en el navegador.
+🔹 Detallar el proceso de instalación de Live Server, dónde encontrarlo y cómo usarlo.
+
+✅ 4. Subida y publicación en GitHub Pages (sin comandos)
+🔹 Crear una cuenta en GitHub, detallando el proceso de registro.
+🔹 Crear un repositorio, explicando configuración y opciones.
+🔹 Subir archivos utilizando el método de arrastrar y soltar.
+🔹 Activar GitHub Pages y obtener la URL pública del proyecto.
+
+✅ 5. Publicación en Vercel
+🔹 Explicar cómo crear una cuenta en Vercel paso a paso.
+🔹 Detallar cómo vincular Vercel con GitHub y cómo importar el proyecto.
+🔹 Incluir una guía resumida pero clara sobre el despliegue en Vercel.
+🔹 Proporcionar instrucciones para visualizar y compartir el proyecto.
+
+=============================================================================================================================================
+--EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO:
+=============================================================================================================================================
+✅ Realiza una métrica analizando, según los perfiles de desarrollador, cuánto tiempo les tomaría completar este proyecto en su totalidad. Incluye todos los aspectos involucrados.
+
+✅ Considera distintos niveles de experiencia: aprendiz, junior, senior y experto full stack. Además, analiza el tiempo estimado para cada perfil según su modalidad de trabajo, ya sea en una empresa o como freelancer.
+
+✅ Presenta los resultados en una tabla bien estructurada, con todos los detalles, lista para copiar y pegar en Excel.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+💪 FIN DEL PROMPT:
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+=============================================================================================================================================
+--💪 COMO ENTREGAR EL PROYECTO INDIVIDUAL:
+=============================================================================================================================================
+
+✅ Cada estudiante debe hacer el proyecto siguiendo los pasos que les da IA. Debe crear el proyecto en el escritorio de la PC con el nombre correspondiente, subirlo a GitHub y Vercel. Luego, debe hacer un manual tipo tutorial con la información proporcionada por la IA, copiándolo en un documento de Word, aplicándole formato, colores, etc. También debe agregar capturas de pantalla del proceso, Visual Studio, código HTML, código CSS, código JS y las páginas de GitHub y Vercel.
+
+✅ En el documento, debe incluir una presentación del estudiante, del profesor, la materia, la fecha y los enlaces. Los enlaces deben ser los públicos de GitHub, la URL pública del proyecto en GitHub Pages y la URL pública de Vercel, para poder navegar entre la página y el repositorio.
+
+✅ Deberá subir el documento en PDF a la página de la universidad en la sección correspondiente a este proyecto. Es importante que cumpla al 100% con los requisitos establecidos y que todos los enlaces funcionen correctamente.
+✅ Al final, debe incluir una CONCLUSIÓN junto con la tabla correspondiente.
+
+=============================================================================================================================================
+--FUERA DEL PROMPT REDACTE UNA CONCLUSIÓN SEGÚN LO SIGUIENTE:
+=============================================================================================================================================
+
+✅ Cada estudiante debe redactar una conclusión sobre este tema, expresando su opinión sincera acerca de la experiencia de desarrollar este proyecto. Debe reflexionar sobre el impacto que ha tenido en su vida y cómo aprovechará estos conocimientos a partir de hoy.
+
+✅ Además, debe compartir su perspectiva sobre el aprendizaje de nuevas habilidades, incluyendo el desarrollo web y la inteligencia artificial, considerando qué significa para él la capacidad de aprender cualquier cosa en la era digital.
+
+=============================================================================================================================================
+--📌 FORMATO ESTÁNDAR PARA EL TRABAJO
+=============================================================================================================================================
+
+✅ 1. Portada:
+
+- 🏫 Nombre de la universidad.
+- 📚 Nombre de la materia.
+- 📝 Título del proyecto.
+- 👤 Nombre del estudiante.
+- 🎓 Nombre del profesor.
+- 📅 Fecha de entrega.
+
+✅ 2. Introducción:
+
+- 🔍 Breve descripción del proyecto.
+- 🎯 Objetivos principales.
+- 🌍 Importancia del proyecto.
+
+✅ 3. Desarrollo:
+
+- 📌 Explicación paso a paso de la creación del proyecto.
+- 🖼️ Capturas de pantalla.
+- 🧑‍💻 Código fuente (HTML, CSS, JS).
+- 🔗 Enlaces públicos al repositorio de GitHub, carpta con los docuemtnos , y las URL Navegables de GitHub y Vercel.
+
+✅ 4. Conclusión:
+
+- 💭 Reflexión personal sobre el aprendizaje y el impacto del proyecto.
+
+✅ 5. Bibliografía (si aplica):
+
+- 📖 Referencias utilizadas. Que Inteligencia Artificial utilizaste o que otro recus
+
+=============================================================================================================================================
+-- 💾 CÓMO GUARDAR EL DOCUMENTO EN WORD Y PDF
+=============================================================================================================================================
+
+✅ Guardar en Word (.docx):
+
+🔹 Abre Microsoft Word y asegúrate de que tu documento está completo.
+🔹 Haz clic en "Archivo" en la barra superior.
+🔹 Selecciona "Guardar como".
+🔹 Elige la ubicación donde quieres guardarlo.
+🔹 En "Tipo de archivo", selecciona "Documento de Word (*.docx)".
+🔹 Escribe un nombre apropiado y haz clic en "Guardar".
+
+✅ Guardar en PDF:
+
+🔸 Abre tu documento en Microsoft Word.
+🔸 Haz clic en "Archivo" y selecciona "Exportar".
+🔸 Elige "Crear PDF/XPS".
+🔸 Escoge la ubicación donde deseas guardar el archivo.
+🔸 Asegúrate de que el tipo de archivo sea PDF (*.pdf).
+🔸 Haz clic en "Publicar"
+
+
+

@@ -1,0 +1,119 @@
+
+CREAR UN PORTAFOLIO WEB CON INTELIGENCIA ARTIFICIAL ENTREGA INDIVIDUAL CON DESPLIEGUE EN GITHUB -INDIVIDUAL-PERSONALIZAR CON TUS DATOS, FOTOS, ETC.
+-------------------------------------------------------------------------------------
+
+USAR ESTE PROMPT CON LAS INTELIGENCIAS ARTIFICIALES:
+-------------------------------------------------------------------------------------
+
+https://chat.mistral.ai/
+https://chat.deepseek.com/
+https://chat.qwenlm.ai/
+https://chatgpt.com/
+https://gemini.google.com/
+https://claude.ai/
+https://v0.dev/chat
+https://llamacoder.together.ai/
+https://www.perplexity.ai/
+https://copilot.microsoft.com/
+
+-------------------------------------------------------------------------------------
+Prompt Completo y Estructurado para Generar el Portafolio Web (Sin Errores en Modo Dark)
+-------------------------------------------------------------------------------------
+
+A continuación, te entrego el prompt completo y estructurado que puedes copiar y pegar directamente en una IA como Geminis, Grok, ChatGPT, Qwen o similar para regenerar  un proyecto de portafolio web, incorporando todos los detalles que describen acontinuacion en el prompt. Lo he diseñado para ser auto-contenido, secuencial y robusto, con énfasis en evitar errores en el modo dark (especificando variables CSS precisas, overrides correctos y coherencia en colores de texto/iconos/emojis). Incluye validaciones explícitas para nitidez, responsividad, SEO y accesibilidad.
+
+El prompt está dividido en secciones claras (con viñetas y numeración) para que la IA lo procese sin ambigüedades, reduciendo fallos. Al final del prompt, se integra la narrativa educativa, tutorial, métricas y pasos de despliegue.
+
+-------------------------------------------------------------------------------------
+Prompt para IA:
+-------------------------------------------------------------------------------------
+
+Eres un Desarrollador Frontend experto. Crea una página web completa para un portafolio estructurado con secciones claras: Homepage, Sobre Mí, Proyectos, Experiencia, Contacto. Rellena los datos con datos ficticios de la industria Tech (nombre: Juan Pérez, 5+ años experiencia en frontend, especialización en React/HTML5/CSS3/JS). Hazlo lo más completo posible en todas las secciones, usando una página web semántica HTML5 sin dejar nada incompleto.
+Tecnologías Obligatorias (usa solo estas, integra via CDN):
+
+HTML5 semántico (secciones , , etc., con aria-labels para accesibilidad).
+CSS3 con variables :root para colores coherentes.
+Bootstrap 5.3.3 para layout responsive (grids, cards, navbar, forms).
+JavaScript vanilla para interacciones (sin frameworks extras).
+Font Awesome 6.5.1 para iconos y emojis (usa clases como fas fa-code, fab fa-linkedin; integra emojis como 🚀📸).
+
+
+Diseño y Elementos Específicos:
+
+Estructura General: Single-page app con navbar fija arriba (fixed-top, Bootstrap navbar-expand-lg, bg-primary en light, bg-dark en dark). Incluye botón toggle modo dark en el navbar (btn-outline-light, icono fa-moon/fa-sun que cambie).
+
+Modo Dark Obligatorio (Sin Errores - Especificación Precisa): Implementa toggle con JS (localStorage para persistencia, smooth transition 0.3s en body). Usa variables CSS en :root: --primary-color: #007bff; --bg-light: #f8f9fa; --text-light: #212529; --bg-dark: #343a40; --text-dark: #f8f9fa. En body.dark: override --bg-light: #343a40; --text-light: #f8f9fa; background-color: var(--bg-dark); color: var(--text-dark); (NO sobrescribas --text-dark a oscuro). Overrides: body.dark .bg-light { background: var(--bg-dark) !important; }; body.dark .card { background: var(--bg-dark); color: var(--text-dark); border-color: var(--primary-color); }; body.dark .navbar { background: var(--bg-dark) !important; }; body.dark .navbar-brand, .nav-link { color: var(--text-dark) !important; }; body.dark i { color: var(--text-dark); }; body.dark .text-dark { color: var(--text-light) !important; }. Asegura coherencia total: textos claros (#f8f9fa) en fondos oscuros, iconos/emojis visibles en ambos modos, sin texto oscuro sobre oscuro. Agrega auto-detect prefers-color-scheme en JS.
+
+Homepage: vh-100 hero con gradiente animado (linear-gradient -45deg colores #ee7752, #e73c7e, #23a6d5, #23d5ab; animation gradientShift 15s infinite). Imagen centrada (https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png, rounded-circle 200x200px). Debajo: h1 "Juan Pérez" con animación fadeInUp suave (1.5s). p lead con descripción + emoji 🚀.
+
+Sobre Mí: py-5, container row col-lg-8 text-center. h2 con icono fa-user. p lead descripción ficticia + emoji 📸. Debajo row de 3 col-md-4 con iconos fa-laptop-code/fa-users/fa-bullseye (text-primary), h5 y p.
+Proyectos: py-5 bg-light, h2 text-center con fa-project-diagram. Row de 3 col-md-4 cards (clase project-card h-100): border 2px var(--primary-color), hover scale(1.05) shadow, animación heartbeat lenta (3s infinite, scale 1.02). Imágenes card-img-top: 1ra https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg (alt E-commerce), 2da https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg (alt Dashboard), 3ra https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s (alt App Móvil). card-body: h5 título ficticio, p descripción tech, btn-primary "Ver Proyecto".
+
+Experiencia: py-5, h2 con fa-briefcase. Row 3 col-md-4 cards (experience-card h-100 border-primary): icono fa-building fa-3x text-primary, h5 título ficticio (Senior Frontend - TechCorp, etc.), p detalles con fechas/logros.
+Contacto: py-5 bg-light, h2 con fa-envelope. Form Bootstrap (inputs name/email/message, textarea rows=5, btn-primary w-100 submit simulado con JS alert). Debajo row col text-center h5 "Conéctate en Redes" + links iconos fa-2x: fa-linkedin text-primary, fa-github text-dark (ajusta en dark), fa-twitter text-info, fa-instagram text-danger.
+
+Footer: bg-dark text-white py-4, p con © 2025 + fa-heart text-danger.
+
+Optimizaciones: SEO (metas description/keywords/author/lang=es), accesibilidad (focus outlines, alt texts, required en form). Responsive para móviles/tablets (media max-768px). Smooth scroll JS para navbar links. Form submit alert "¡Mensaje enviado! 📧".
+
+Código Completo: Genera 3 archivos independientes: index.html (completo con , head links CDNs, body secciones), style.css (todo CSS con @keyframes), script.js (DOMContentLoaded, toggle dark, smooth scroll, form submit, prefers-color-scheme). Usa code blocks markdown para cada uno.
+
+Asegura: No errores (prueba mental dark mode: texto claro siempre), responsive perfecto, código limpio, coherencia colores (light: oscuros; dark: claros). Output solo código + secciones finales, sin extras.
+
+Este prompt es estructurado para no fallar:
+
+Secuencial: Empieza con rol/tech, luego diseño por sección, código, y extras.
+Específico en Dark Mode: Detalla variables/overrides exactos para evitar el bug de texto oscuro.
+Completo: Cubre 100% de tus narraciones (imágenes, animaciones, pasos, métricas, etc.).
+Largo Óptimo: Detallado pero parsable (usa numeración para IA).
+
+
+=============================================================================================================================================
+ -- PARTE DE DESARROLLO E IMPLEMENTACIÓN -- 
+=============================================================================================================================================
+
+Una vez terminado, crea un tutorial desde cero indicando qué es el desarrollo web, el diseño web y el maquetado web; qué es la programación web y cuáles son las tecnologías más básicas (HTML, CSS, Bootstrap, Font Awesome y JS). Redacta una breve explicación de cada una, definiendo estas tecnologías y su orden histórico en el desarrollo. Hazlo pensando en un tema de investigación educativa.
+
+En el caso del proyecto, indica paso a paso todo el código. Luego, explica los pasos para poder aplicarlo en Visual Studio Code: cómo crear los archivos independientes (.html, .css, .js), cómo visualizarlo en el navegador y cómo desplegarlo en GitHub. En este caso, describe paso a paso, de forma manual, la metodología de GitHub para crear el proyecto, subir los archivos arrastrando y soltando, y luego cómo publicarlo en GitHub Pages. Detalla los pasos uno por uno, desde la creación de la cuenta hasta cómo crear el proyecto y el repositorio, con todos los detalles, y cómo subirlo manualmente buscando los archivos o arrastrándolos. La parte de comandos, óbviala por ahora.
+
+Recuerda que es importante explicar cómo se despliega el proyecto en GitHub Pages, paso a paso, y cómo puede visualizarse y compartirse correctamente una vez finalizado.
+
+============================================================================================================================================= 
+-- EN UN TEXTO FUERA DE LA PÁGINA INDÍCAME ESTO: -- =============================================================================================================================================
+
+Haz una métrica analizando, según los perfiles de un desarrollador, cuánto tiempo le puede tomar a cada uno realizar este proyecto completo. Analiza todos los aspectos: ¿involucra a un programador aprendiz, junior, senior, experto full stack, con experiencia promedio, ya sea que trabaje en una empresa o lo haga como freelancer?
+
+
+-------------------------------------------------------------------------------------
+DOCUMENTACIÓN DEL PROCESO
+-------------------------------------------------------------------------------------
+
+Crear un manual documentado: Redacte un documento en Word o PDF que incluya:
+
+El proceso detallado para subir el proyecto a GitHub.
+
+El enlace del repositorio de GitHub.
+
+La URL del proyecto desplegado en GitHub Pages.
+
+Este manual debe ser claro y seguir el mismo formato profesional utilizado aquí.
+
+Compartir el proyecto: Comparta el enlace del repositorio y la URL del proyecto en el documento manual que se le haya indicado.
+
+-------------------------------------------------------------------------------------
+NOTA IMPORTANTE
+-------------------------------------------------------------------------------------
+
+Todo el proceso descrito debe quedar documentado en un archivo Word o PDF, el cual se guardará con el nombre:
+
+NOMBRE_Y_APELLIDO_MATRÍCULA_DOCUMENTACIÓN_PROYECTO_1.pdf
+
+Este archivo debe incluir:
+
+El paso a paso para subir el proyecto a GitHub.
+
+El enlace del repositorio.
+
+La URL del proyecto en GitHub Pages.
+
+Capturas de pantalla relevantes del proceso (opcional pero recomendado).
